@@ -14,7 +14,7 @@
 export default {
   name: 'ContentView',
   async asyncData({ $content, app, params, error }) {
-    const path = `${app.i18n.locale}/${params.pathMatch || 'index'}`
+    const path = `${app.i18n.locale}/${params.pathMatch}/index`
     const article = await $content(path).fetch()
 
     if (!article) {
