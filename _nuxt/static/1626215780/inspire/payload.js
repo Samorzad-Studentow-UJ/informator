@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/inspire", {data:[{}],fetch:{"PageTree:0":{tree:[{title:"Getting started",path:"\u002Fpl\u002Fhello"},{title:"Getting stopped",path:"\u002Fpl\u002Ftest\u002Ftest2"}]}},mutations:[]});

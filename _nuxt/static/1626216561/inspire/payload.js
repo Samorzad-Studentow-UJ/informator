@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/inspire", {data:[{}],fetch:{"PageTree:0":{tree:[]}},mutations:[]});
