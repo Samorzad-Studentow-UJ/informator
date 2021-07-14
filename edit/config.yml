@@ -1,0 +1,76 @@
+backend:
+  name: github
+  branch: master
+  repo: Samorzad-Studentow-UJ/informator
+  open_authoring: true
+media_folder: 'static/images/uploads'
+public_folder: 'images/uploads'
+publish_mode: editorial_workflow
+site_url: https://infossuj.pardyl.com
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+i18n:
+  structure: multiple_folders
+  locales: [ pl, en ]
+  default_locale: pl
+collections:
+  - name: 'pages_pl'
+    label: 'Pages PL'
+    label_singular: 'Page PL'
+    folder: 'content/pl'
+    create: true
+    sortableFields: [ 'title' ]
+    nested:
+      depth: 6
+      summary: '{{title}}'
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Material Design Icon'
+        name: 'icon'
+        widget: 'string'
+        required: false
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+        required: false
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        buttons: [ 'bold', 'italic', 'link', 'heading-two', 'heading-three', 'heading-four', 'heading-five', 'heading-six', 'quote', 'bulleted-list', 'numbered-list', 'code' ]
+    extension: 'md'
+    format: yaml-frontmatter
+    slug: "{{slug}}"
+  - name: 'pages_en'
+    label: 'Pages EN'
+    label_singular: 'Page EN'
+    folder: 'content/en'
+    create: true
+    sortableFields: [ 'title' ]
+    nested:
+      depth: 6
+      summary: '{{title}}'
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Material Design Icon'
+        name: 'icon'
+        widget: 'string'
+        required: false
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+        required: false
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        buttons: [ 'bold', 'italic', 'link', 'heading-two', 'heading-three', 'heading-four', 'heading-five', 'heading-six', 'quote', 'bulleted-list', 'numbered-list', 'code' ]
+    extension: 'md'
+    format: yaml-frontmatter
+    slug: "{{slug}}"
