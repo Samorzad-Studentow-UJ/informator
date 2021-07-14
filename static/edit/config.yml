@@ -2,8 +2,10 @@ backend:
   name: github
   branch: master
   repo: Samorzad-Studentow-UJ/informator
+  open_authoring: true
 media_folder: 'static/images/uploads'
 public_folder: 'images/uploads'
+publish_mode: editorial_workflow
 site_url: https://infossuj.pardyl.com
 slug:
   encoding: "ascii"
