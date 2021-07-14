@@ -1,0 +1,49 @@
+backend:
+  name: github
+  branch: master
+  repo: Samorzad-Studentow-UJ/informator
+media_folder: 'static/images/uploads'
+public_folder: 'images/uploads'
+site_url: https://infossuj.pardyl.com
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+i18n:
+  structure: multiple_folders
+  locales: [ pl, en ]
+  default_locale: pl
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    label_singular: 'Page'
+    folder: 'content/'
+    i18n: true
+    create: true
+    sortableFields: [ 'title' ]
+    nested:
+      depth: 6
+      summary: '{{title}}'
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+    fields:
+      - label: 'Title'
+        name: 'title'
+        i18n: true
+        widget: 'string'
+      - label: 'Material Design Icon'
+        name: 'icon'
+        widget: 'string'
+        required: false
+      - label: 'Description'
+        name: 'description'
+        i18n: true
+        widget: 'string'
+        required: false
+      - label: 'Body'
+        name: 'body'
+        i18n: true
+        widget: 'markdown'
+        buttons: [ 'bold', 'italic', 'link', 'heading-two', 'heading-three', 'heading-four', 'heading-five', 'heading-six', 'quote', 'bulleted-list', 'numbered-list', 'code' ]
+    extension: 'md'
+    format: yaml-frontmatter
+    slug: "{{slug}}"
