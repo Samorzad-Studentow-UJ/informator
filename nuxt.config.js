@@ -54,8 +54,16 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
-    manifest: {
-      lang: 'en'
+    icon: {
+      source: 'static/icon.png'
+    },
+    meta: {
+      name: 'Informator Studenta UJ',
+      short_name: 'InformatorUJ',
+      author: 'Samorząd Studentów UJ',
+      theme_color: '#005ca7',
+      description: 'Wszystko co musisz wiedzieć studiując na UJ.',
+      lang: 'pl',
     }
   },
 

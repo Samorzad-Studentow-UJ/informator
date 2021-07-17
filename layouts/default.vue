@@ -9,7 +9,7 @@
     >
       <v-app-bar-nav-icon @click.stop='drawer = !drawer' class='hidden-lg-and-up' />
       <v-img
-        src='/ssuj.png'
+        :src='logo'
         alt='Logo SSUJ'
         max-height='70'
         max-width='150'
@@ -28,14 +28,23 @@
       floating
       width='300'
     >
-      <page-tree class='my-2'/>
+      <page-tree class='my-2' />
     </v-navigation-drawer>
     <v-main>
       <v-container>
         <Nuxt />
       </v-container>
     </v-main>
-    <v-footer padless app>
+    <v-footer padless app class='hidden-sm-and-down'>
+      <v-col
+        class='text-center'
+        cols='12'
+      >
+        {{ new Date().getFullYear() }} — <strong><a class='text-decoration-none' href='https://samorzad.uj.edu.pl/'>
+        Samorząd Studentów UJ</a></strong>
+      </v-col>
+    </v-footer>
+    <v-footer padless class='hidden-md-and-up'>
       <v-col
         class='text-center'
         cols='12'
@@ -54,11 +63,18 @@ import { Themes } from '~/store/user'
 export default {
   data() {
     return {
-      drawer: false,
+      drawer: false
     }
   },
   computed: {
-    theme: get('user/theme')
+    theme: get('user/theme'),
+    logo() {
+      if (this.theme === Themes.LIGHT) {
+        return '/ssuj.png'
+      } else {
+        return '/ssuj_white_transparent.png'
+      }
+    }
   },
   watch: {
     theme: {
