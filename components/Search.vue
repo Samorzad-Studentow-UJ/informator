@@ -46,15 +46,12 @@ export default {
         return
       }
       this.loading = true
-      this.items = await this.$content('/' + this.$i18n.locale,
+      this.items = await this.$content(this.$i18n.locale,
         { deep: true, text: true })
         .limit(5)
         .search(searchQuery)
         .fetch()
-        .then((t => {
-          this.loading = false
-          return t
-        }))
+      this.loading = false
     }
   },
   methods: {

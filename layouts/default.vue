@@ -54,7 +54,7 @@ import { Themes } from '~/store/user'
 export default {
   data() {
     return {
-      drawer: true,
+      drawer: false,
     }
   },
   computed: {
