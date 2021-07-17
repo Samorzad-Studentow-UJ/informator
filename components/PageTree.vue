@@ -1,51 +1,56 @@
 <template>
-  <p v-if='$fetchState.pending'>Fetching mountains...</p>
-  <p v-else-if='$fetchState.error'>An error occurred :(</p>
-  <p v-else>{{ tree }}</p>
+  <!--  <v-treeview :items='currentTree' item-key='path' item-text='title' item-children='subpages'-->
+  <!--              activatable hoverable color='secondary'>-->
+  <!--    <template #append='{ item }'>-->
+  <!--      <v-icon v-if='item.icon'>-->
+  <!--        {{ item.icon }}-->
+  <!--      </v-icon>-->
+  <!--    </template>-->
+  <!--  </v-treeview>-->
+
+  <v-list>
+    <v-list-group
+      v-for='row in currentTree'
+      :key='row.path'
+      :prepend-icon='row.icon'
+      :to='row.path + "/"'
+
+    >
+      <template v-slot:activator>
+        <v-list-item-title>{{ row.title }}</v-list-item-title>
+      </template>
+      <v-treeview :items='row.subpages' item-key='path' item-text='title' item-children='subpages'
+                  activatable hoverable color='secondary' dense>
+        <template #prepend='{ item }'>
+          <v-icon v-if='item.icon'>
+            {{ item.icon }}
+          </v-icon>
+        </template>
+      </v-treeview>
+
+    </v-list-group>
+  </v-list>
 </template>
 
 <script>
+import { get } from 'vuex-pathify'
+
 export default {
   name: 'PageTree',
   data() {
     return {
-      tree: undefined
     }
   },
-  async fetch() {
-    await Promise.all([
-      this.$content(this.$i18n.locale, { deep: true }).where({ slug: { $ne: 'index' } }).only(['title', 'path']).fetch(),
-    ]).then(res => {
-        this.tree = this.transformTree(...res)
-      }
-    )
+  computed: {
+    tree: get('pages/tree'),
+    currentTree() {
+      console.log(this.tree)
+      return this.tree.find(el => el.path === '/' + this.$i18n.locale).subpages
+    }
   },
   methods: {
-    transformIconMap(result) {
-      return Object.fromEntries(result.icons.map((item) => ([item.path, item.icon])))
-    },
-    transformTree(articles) {
-      // const byPath = Object.fromEntries(articles.map((item) => ([item.path, item])))
-      // Object.keys(byPath).forEach(path => {
-      //   let parent = path
-      //   // eslint-disable-next-line no-unreachable-loop
-      //   do {
-      //     parent = parent.substring(0, parent.lastIndexOf('/'))
-      //     byPath[parent] = {path: parent}
-      //   } while (parent.length > this.$i18n.locale.length + 1)
-      // })
-      // Object.keys(byPath).forEach(key => {
-      //   byPath[key].subpages = []
-      // })
-      // Object.keys(byPath).forEach(key => {
-      //   const path = byPath[key].path
-      //   const parent = path.substring(0, path.lastIndexOf('/'))
-      //   if (parent in byPath) {
-      //     byPath[parent].subpages.push(byPath[key])
-      //   }
-      // })
-      // return byPath['/' + this.$i18n.locale]
-      return articles
+    onClick(el) {
+      console.log(el)
     }
   }
 }

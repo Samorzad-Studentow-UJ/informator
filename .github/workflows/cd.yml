@@ -42,6 +42,9 @@ jobs:
       - name: Generate
         run: yarn run generate
 
+      - name: Create symlinks
+        run: bash -c "cd dist; ln -s 404/index.html 404.html"
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

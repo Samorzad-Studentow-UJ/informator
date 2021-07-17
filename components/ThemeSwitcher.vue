@@ -3,12 +3,12 @@
     left
     bottom
   >
-    <template v-slot:activator="{ on, attrs }">
+    <template #activator='{ on, attrs }'>
       <v-btn
-        text
-        v-bind="attrs"
-        v-on="on"
         class='px-1'
+        text
+        v-bind='attrs'
+        v-on='on'
       >
         <v-icon>mdi-contrast-box</v-icon>
         <v-icon>mdi-menu-down</v-icon>
@@ -17,19 +17,48 @@
 
     <v-list>
       <v-list-item
-        v-for="n in 5"
-        :key="n"
-        @click="() => {}"
+        v-for='item in THEMES'
+        :key='item.key'
+        @click='onClick(item.key)'
       >
-        <v-list-item-title>Option {{ n }}</v-list-item-title>
+        <v-list-item-title>{{ item.name }}</v-list-item-title>
       </v-list-item>
     </v-list>
   </v-menu>
 </template>
 
 <script>
+import { sync } from 'vuex-pathify'
+import { Themes } from '~/store/user'
+
 export default {
-  name: 'ThemeSwitcher'
+  name: 'ThemeSwitcher',
+  data() {
+    return {
+      THEMES: [
+        {
+          key: Themes.LIGHT,
+          name: 'Light'
+        },
+        {
+          key: Themes.DARK,
+          name: 'Dark'
+        },
+        {
+          key: Themes.HIGH_CONTRAST,
+          name: 'High contrast'
+        }
+      ]
+    }
+  },
+  computed: {
+    theme: sync('user/theme')
+  },
+  methods: {
+    onClick(key) {
+      this.theme = key
+    }
+  }
 }
 </script>
 

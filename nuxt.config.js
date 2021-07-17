@@ -24,7 +24,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/sync-router-vuex.client.js'
+    '~/plugins/sync-router-vuex.client.js',
+    '~/plugins/persisted-state.client.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -77,9 +78,10 @@ export default {
         linkProperties: {
           ariaHidden: 'true',
           tabIndex: -1,
-          className: ['heading-link'],
+          className: ['heading-link']
         }
-      }
+      },
+      fullTextSearchFields: ['title', 'description', 'text']
     }
   },
 
@@ -127,10 +129,10 @@ export default {
       onlyOnRoot: true
     },
     vueI18nLoader: true,
-    strategy: 'prefix',
+    strategy: 'prefix'
   },
 
   router: {
     trailingSlash: true
-  },
+  }
 }

@@ -28,23 +28,7 @@
       floating
       width='300'
     >
-      <v-list>
-        <v-list-item
-          v-for='(item, i) in items'
-          :key='i'
-          :to='localePath(item.to)'
-          exact
-          nuxt
-        >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text='item.title' />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-      <page-tree/>
+      <page-tree class='my-2'/>
     </v-navigation-drawer>
     <v-main>
       <v-container>
@@ -53,33 +37,35 @@
     </v-main>
     <v-footer padless app>
       <v-col
-        class="text-center"
-        cols="12"
+        class='text-center'
+        cols='12'
       >
-        {{ new Date().getFullYear() }} — <strong><a class='text-decoration-none' href='https://samorzad.uj.edu.pl/'>Samorząd Studentów UJ</a></strong>
+        {{ new Date().getFullYear() }} — <strong><a class='text-decoration-none' href='https://samorzad.uj.edu.pl/'>
+        Samorząd Studentów UJ</a></strong>
       </v-col>
     </v-footer>
   </v-app>
 </template>
 
 <script>
+import { get } from 'vuex-pathify'
+import { Themes } from '~/store/user'
+
 export default {
   data() {
     return {
       drawer: true,
-      items: [
-        {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        }
-      ],
-      title: 'Informator studenta'
+    }
+  },
+  computed: {
+    theme: get('user/theme')
+  },
+  watch: {
+    theme: {
+      immediate: true,
+      handler(val) {
+        this.$vuetify.theme.dark = val === Themes.DARK || val === Themes.HIGH_CONTRAST
+      }
     }
   }
 }
