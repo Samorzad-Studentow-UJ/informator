@@ -11,8 +11,6 @@ export default {
     description: 'Wszystko co musisz wiedzieć studiując na UJ.',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -63,10 +61,11 @@ export default {
       short_name: 'InformatorUJ',
       author: 'Samorząd Studentów UJ',
       theme_color: '#005ca7',
-      description: 'Wszystko co musisz wiedzieć studiując na UJ.',
+      description: 'Wszystko co musisz wiedzieć studiując na UJ',
       lang: 'pl',
       mobileAppIOS: true,
       nativeUI: true,
+      viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui',
     },
     manifest: {
       name: 'Informator Studenta UJ',
