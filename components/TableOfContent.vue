@@ -1,52 +1,66 @@
 <template>
-  <v-navigation-drawer
-    id='default-toc'
-    v-scroll='onScroll'
-    app
-    class='py-4 pr-4 pl-3'
-    clipped
-    right
-    floating
-    width='300'
-  >
-    <template
-      v-if='toc.length'
-      #prepend
+  <div>
+    <v-navigation-drawer
+      id='default-toc'
+      v-model='drawer'
+      v-scroll='onScroll'
+      app
+      class='py-4 pr-4 pl-3'
+      clipped
+      right
+      floating
+      width='300'
     >
-      <div
-        class='mb-2 text-h6 font-weight-medium text--primary'
-      >Content
-      </div>
-    </template>
-
-    <ul class='mb-6'>
-      <router-link
-        v-for='{ id, depth, text } in toc'
-        :key='text'
-        v-slot='{ href, isActive }'
-        :to="'#' + id"
-        exact
+      <template
+        v-if='toc.length'
+        #prepend
       >
-        <li
-          :class="{
+        <div
+          class='mb-2 text-h6 font-weight-medium text--primary'
+        >{{ $t('tos') }}
+        </div>
+      </template>
+
+      <ul class='mb-6'>
+        <router-link
+          v-for='{ id, depth, text } in toc'
+          :key='text'
+          v-slot='{ href, isActive }'
+          :to="'#' + id"
+          exact
+        >
+          <li
+            :class="{
             'primary--text router-link-active': isActive,
             'text--disabled': !isActive,
             'pl-6': depth === 3,
             'pl-9': depth === 4,
             'pl-12': depth === 5,
           }"
-          class='pl-3 text-body-2 py-1 font-weight-regular'
-        >
-          <a
-            :href='href'
-            class='v-toc-link d-block transition-swing text-decoration-none'
-            @click.prevent.stop='onClick(id)'
-            v-text='text'
-          />
-        </li>
-      </router-link>
-    </ul>
-  </v-navigation-drawer>
+            class='pl-3 text-body-2 py-1 font-weight-regular'
+          >
+            <a
+              :href='href'
+              class='v-toc-link d-block transition-swing text-decoration-none'
+              @click.prevent.stop='onClick(id)'
+              v-text='text'
+            />
+          </li>
+        </router-link>
+      </ul>
+    </v-navigation-drawer>
+    <v-btn
+      class='hidden-lg-and-up'
+      color="accent"
+      elevation="6"
+      fab
+      bottom
+      right
+      rounded
+      fixed
+      @click.stop='drawer = !drawer'
+    ><v-icon>mdi-table-of-contents</v-icon></v-btn>
+  </div>
 </template>
 
 <script>
@@ -57,12 +71,13 @@ export default {
   props: {
     'toc': {
       type: Array,
-      default: () => ([]),
+      default: () => ([])
     }
   },
   data: () => ({
     offsets: [],
-    timeout: null
+    timeout: null,
+    drawer: null,
   }),
   computed: {
     ...get('route', [

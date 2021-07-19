@@ -7,7 +7,7 @@
       clipped-right
       height='80'
     >
-      <v-app-bar-nav-icon @click.stop='drawer = !drawer' class='hidden-lg-and-up' />
+      <v-app-bar-nav-icon class='hidden-lg-and-up' @click.stop='drawer = !drawer' />
       <v-img
         :src='logo'
         alt='Logo SSUJ'
@@ -18,8 +18,8 @@
       <v-spacer />
       <search />
       <v-spacer />
-      <lang-switcher />
       <theme-switcher />
+      <lang-switcher />
     </v-app-bar>
     <v-navigation-drawer
       v-model='drawer'
@@ -28,29 +28,45 @@
       floating
       width='300'
     >
-      <page-tree class='my-2' />
+      <div class='mr-2 hidden-lg-and-up'>
+        <v-list-item class='mr-2 hidden-lg-and-up'>
+          <v-list-item-content>
+            <v-img
+              :src='logo'
+              alt='Logo SSUJ'
+              max-height='70'
+              max-width='150'
+              contain
+            />
+          </v-list-item-content>
+        </v-list-item>
+        <v-divider />
+      </div>
+
+
+      <page-tree class='' />
     </v-navigation-drawer>
     <v-main>
       <v-container>
         <Nuxt />
       </v-container>
     </v-main>
-    <v-footer padless app class='hidden-sm-and-down'>
+    <v-footer padless app class='hidden-md-and-down'>
       <v-col
         class='text-center'
         cols='12'
       >
         {{ new Date().getFullYear() }} — <strong><a class='text-decoration-none' href='https://samorzad.uj.edu.pl/'>
-        Samorząd Studentów UJ</a></strong>
+        {{ $t('ssuj') }}</a></strong>
       </v-col>
     </v-footer>
-    <v-footer padless class='hidden-md-and-up'>
+    <v-footer padless class='hidden-lg-and-up'>
       <v-col
         class='text-center'
         cols='12'
       >
         {{ new Date().getFullYear() }} — <strong><a class='text-decoration-none' href='https://samorzad.uj.edu.pl/'>
-        Samorząd Studentów UJ</a></strong>
+        {{ $t('ssuj') }}</a></strong>
       </v-col>
     </v-footer>
   </v-app>
@@ -63,7 +79,7 @@ import { Themes } from '~/store/user'
 export default {
   data() {
     return {
-      drawer: false
+      drawer: null
     }
   },
   computed: {

@@ -1,15 +1,34 @@
 <template>
-  <article class='article pa-4 pa-sm-6 pa-md-8'>
-    <h1 class='text-h2 mb-5'>{{ article.title }}</h1>
-    <nuxt-content :document='article'  />
-    <table-of-content :toc='article.toc' />
-    <div class='text-caption text-right mt-4'>
-      Ostatnia aktualizacja tej strony: {{ (new Date(article.updatedAt)).toISOString().split('T')[0] }}
-    </div>
-  </article>
+  <div class='article pa-4 pa-sm-6 pa-md-8'>
+    <v-breadcrumbs class='px-0 pt-0'
+                   :items='breadcrumbs'
+    >
+      <template #divider>
+        <v-icon>mdi-chevron-right</v-icon>
+      </template>
+    </v-breadcrumbs>
+    <article>
+      <h1 class='text-h2 mb-5'>{{ article.title }}</h1>
+      <nuxt-content :document='article' />
+      <table-of-content :toc='article.toc' />
+      <div class='text-caption text-right mt-4'>
+        {{ $t('pageLastUpdated') }}: {{ (new Date(article.updatedAt)).toISOString().split('T')[0] }}
+      </div>
+    </article>
+  </div>
 </template>
 
 <script>
+
+import { get } from 'vuex-pathify'
+
+function buildBreadCrumbs(path, pages) {
+  const page = pages[path]
+  if (page.parent === null) {
+    return []
+  }
+  return [...buildBreadCrumbs(page.parent, pages), page]
+}
 
 export default {
   name: 'ContentView',
@@ -25,6 +44,7 @@ export default {
       article
     }
   },
+  data: () => ({}),
   head() {
     return {
       title: this.article.title,
@@ -32,9 +52,32 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.article.description,
+          content: this.article.description
         }
       ]
+    }
+  },
+  computed: {
+    pages: get('pages/pages'),
+    breadcrumbs() {
+      const path = `/${this.$i18n.locale}/${this.$route.params.pathMatch}`
+      const breadCrumbs = buildBreadCrumbs(path, this.pages)
+      const crumbs = [
+        {
+          text: this.$t('home'),
+          disabled: false,
+          href: this.localePath('/')
+        }
+      ]
+      breadCrumbs.forEach(item => {
+        crumbs.push({
+          text: item.title,
+          href: item.path + '/',
+          disabled: item.stub === true
+        })
+      })
+      crumbs[crumbs.length - 1].disabled = true
+      return crumbs
     }
   }
 }
@@ -45,16 +88,20 @@ export default {
   max-width: 1200px
   margin-left: auto
   margin-right: auto
+
   p
     margin: 0.5rem 0
+
   blockquote
     border-left: 5px solid #eee
     padding: 8px 0 8px 24px !important
+
   hr
     margin-top: 20px
     margin-bottom: 20px
     border: 0
     border-top: 1px solid #eee
+
   .heading-link
     content: '#'
 

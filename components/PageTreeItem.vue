@@ -19,7 +19,6 @@
   </v-list-group>
   <v-list-item
     v-else
-    :prepend-icon='row.icon'
     :to='row.path + "/"'>
     <v-list-item-icon>
       <v-icon v-if='row.icon'>mdi-{{ row.icon }}</v-icon>

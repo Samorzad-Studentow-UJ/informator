@@ -1,5 +1,4 @@
 import { make } from 'vuex-pathify'
-import builtInPages from '~/app/builtinPages'
 
 function dirName(parent) {
   return parent.substring(0, parent.lastIndexOf('/'))
@@ -17,7 +16,6 @@ function buildPageTree(articles, context) {
   articles.forEach(item => {
     item.path = dirName(item.path)
   })
-  articles = articles.concat(builtInPages(context.$i18n.locales))
   articles.forEach(item => {
     item.stub = false
   })

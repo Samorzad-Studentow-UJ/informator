@@ -1,14 +1,12 @@
 <template>
-  <!--  <v-treeview :items='currentTree' item-key='path' item-text='title' item-children='subpages'-->
-  <!--              activatable hoverable color='secondary'>-->
-  <!--    <template #append='{ item }'>-->
-  <!--      <v-icon v-if='item.icon'>-->
-  <!--        {{ item.icon }}-->
-  <!--      </v-icon>-->
-  <!--    </template>-->
-  <!--  </v-treeview>-->
-
   <v-list>
+    <v-list-item
+      :to='localePath("/")' exact>
+      <v-list-item-icon>
+        <v-icon>mdi-home</v-icon>
+      </v-list-item-icon>
+      <v-list-item-title>{{ $t('home') }}</v-list-item-title>
+    </v-list-item>
     <page-tree-item v-for='row in currentTree' :key='row.path' :row='row' />
   </v-list>
 </template>
@@ -24,15 +22,9 @@ export default {
   computed: {
     tree: get('pages/tree'),
     currentTree() {
-      console.log(this.tree)
       return this.tree.find(el => el.path === '/' + this.$i18n.locale).subpages
     }
   },
-  methods: {
-    onClick(el) {
-      console.log(el)
-    }
-  }
 }
 </script>
 

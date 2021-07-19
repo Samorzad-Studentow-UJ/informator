@@ -17,7 +17,7 @@
 
     <v-list>
       <v-list-item
-        v-for='item in THEMES'
+        v-for='item in themes'
         :key='item.key'
         @click='onClick(item.key)'
       >
@@ -34,25 +34,26 @@ import { Themes } from '~/store/user'
 export default {
   name: 'ThemeSwitcher',
   data() {
-    return {
-      THEMES: [
+    return {}
+  },
+  computed: {
+    theme: sync('user/theme'),
+    themes() {
+      return [
         {
           key: Themes.LIGHT,
-          name: 'Light'
+          name: this.$t('theme.light')
         },
         {
           key: Themes.DARK,
-          name: 'Dark'
+          name: this.$t('theme.dark')
         },
         {
           key: Themes.HIGH_CONTRAST,
-          name: 'High contrast'
+          name: this.$t('theme.highContrast')
         }
       ]
     }
-  },
-  computed: {
-    theme: sync('user/theme')
   },
   methods: {
     onClick(key) {

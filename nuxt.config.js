@@ -65,7 +65,6 @@ export default {
       lang: 'pl',
       mobileAppIOS: true,
       nativeUI: true,
-      viewport: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui',
     },
     manifest: {
       name: 'Informator Studenta UJ',
@@ -131,13 +130,16 @@ export default {
     locales: [
       {
         code: 'pl',
-        name: 'Polski'
+        name: 'Polski',
+        file: 'pl.js'
       },
       {
         code: 'en',
-        name: 'English'
+        name: 'English',
+        file: 'en.js'
       }
     ],
+    langDir: 'lang/',
     defaultLocale: 'pl',
     detectBrowserLanguage: {
       useCookie: true,
