@@ -9,26 +9,7 @@
   <!--  </v-treeview>-->
 
   <v-list>
-    <v-list-group
-      v-for='row in currentTree'
-      :key='row.path'
-      :prepend-icon='row.icon'
-      :to='row.path + "/"'
-
-    >
-      <template v-slot:activator>
-        <v-list-item-title>{{ row.title }}</v-list-item-title>
-      </template>
-      <v-treeview :items='row.subpages' item-key='path' item-text='title' item-children='subpages'
-                  activatable hoverable color='secondary' dense>
-        <template #prepend='{ item }'>
-          <v-icon v-if='item.icon'>
-            {{ item.icon }}
-          </v-icon>
-        </template>
-      </v-treeview>
-
-    </v-list-group>
+    <page-tree-item v-for='row in currentTree' :key='row.path' :row='row' />
   </v-list>
 </template>
 
@@ -38,8 +19,7 @@ import { get } from 'vuex-pathify'
 export default {
   name: 'PageTree',
   data() {
-    return {
-    }
+    return {}
   },
   computed: {
     tree: get('pages/tree'),

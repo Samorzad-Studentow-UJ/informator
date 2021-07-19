@@ -9,6 +9,10 @@ function capitalize(s) {
   return s.length > 0 ? s[0].toUpperCase() + s.slice(1) : s
 }
 
+function comparePages(page1, page2) {
+  return ((page1.order !== undefined) ? page1.order : 0) - ((page2.order !== undefined) ? page2.order : 0)
+}
+
 function buildPageTree(articles, context) {
   articles.forEach(item => {
     item.path = dirName(item.path)
@@ -37,6 +41,9 @@ function buildPageTree(articles, context) {
       byPath[parent].subpages.push(byPath[path])
       byPath[path].parent = parent
     }
+  })
+  Object.keys(byPath).forEach(path => {
+    byPath[path].subpages.sort(comparePages)
   })
   byPath[''].subpages.forEach(item => {
     item.parent = null

@@ -1,8 +1,9 @@
 const pages = [
   {
     path: '/start',
-    icon: 'mdi-home',
-    title: 'Start'
+    icon: 'home',
+    title: 'Start',
+    order: -9999999,
   }
 ]
 
@@ -13,7 +14,8 @@ export default function builtInPages(locales) {
       out.push({
         path: `/${locale.code}${item.path}`,
         title: item.title,
-        icon: item.icon
+        icon: item.icon,
+        order: item.order
       })
     })
   })
