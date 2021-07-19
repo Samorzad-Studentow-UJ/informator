@@ -1,8 +1,8 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
+  <v-row justify='center' align='center'>
+    <v-col cols='12' sm='8' md='6'>
       <v-card>
-        <v-card-title class="headline">
+        <v-card-title class='headline'>
           File not found
         </v-card-title>
         <v-card-text>
@@ -11,9 +11,9 @@
         <v-card-actions>
           <v-spacer />
           <v-btn
-            color="primary"
+            color='primary'
             nuxt
-            to="/"
+            to='/'
             outlined
           >
             Back to main site
@@ -23,3 +23,11 @@
     </v-col>
   </v-row>
 </template>
+
+<script>
+export default {
+  data() {
+    return {}
+  }
+}
+</script>
