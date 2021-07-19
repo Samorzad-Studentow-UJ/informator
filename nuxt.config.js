@@ -65,6 +65,14 @@ export default {
       theme_color: '#005ca7',
       description: 'Wszystko co musisz wiedzieć studiując na UJ.',
       lang: 'pl',
+      mobileAppIOS: true,
+      nativeUI: true,
+    },
+    manifest: {
+      name: 'Informator Studenta UJ',
+      short_name: 'InformatorUJ',
+      description: 'Wszystko co musisz wiedzieć studiując na UJ.',
+      lang: 'pl',
     }
   },
 
