@@ -1,7 +1,7 @@
 {
-  "name": "info.ssuj",
-  "short_name": "info.ssuj",
-  "description": "## Build Setup",
+  "name": "Informator Studenta UJ",
+  "short_name": "InformatorUJ",
+  "description": "Wszystko co musisz wiedzieć studiując na UJ.",
   "icons": [
     {
       "src": "/_nuxt/icons/icon_64x64.84e96c.png",
@@ -50,5 +50,5 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#005ca7",
-  "lang": "en"
+  "lang": "pl"
 }
