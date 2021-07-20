@@ -37,12 +37,13 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify'
+    '@nuxtjs/vuetify',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/axios',
+    // '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxt/content',
     'nuxt-i18n'
@@ -78,7 +79,7 @@ export default {
   content: {
     markdown: {
       rehypePlugins: [
-        'rehype-add-classes'
+        'rehype-add-classes', "~/plugins/rehype-content-image.js"
       ],
       rehypeAddClasses: {
         h2: 'text-h3 mb-3 mt-7',
@@ -162,5 +163,16 @@ export default {
 
   router: {
     trailingSlash: true
+  },
+
+  image: {
+    // The screen sizes predefined by `@nuxt/image`:
+    screens: {
+      xs: 600,
+      sm: 960,
+      md: 1264,
+      lg: 1904,
+      xl: 1904,
+    },
   }
 }

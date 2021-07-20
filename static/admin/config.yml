@@ -3,7 +3,7 @@ backend:
   branch: master
   repo: Samorzad-Studentow-UJ/informator
 media_folder: 'static/images/uploads'
-public_folder: 'images/uploads'
+public_folder: '/images/uploads'
 site_url: https://infossuj.pardyl.com
 slug:
   encoding: "ascii"
