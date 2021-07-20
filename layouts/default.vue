@@ -43,8 +43,17 @@
         <v-divider />
       </div>
 
-
-      <page-tree class='' />
+      <page-tree />
+      <template #append>
+        <v-list>
+          <v-list-item v-if='pwaInstallPrompt' @click='pwaInstallPrompt.prompt()'>
+            <v-list-item-icon>
+              <v-icon>mdi-devices</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>Install App</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </template>
     </v-navigation-drawer>
     <v-main>
       <v-container>
@@ -79,7 +88,8 @@ import { Themes } from '~/store/user'
 export default {
   data() {
     return {
-      drawer: null
+      drawer: null,
+      pwaInstallPrompt: null
     }
   },
   computed: {
@@ -99,6 +109,16 @@ export default {
         this.$vuetify.theme.dark = val === Themes.DARK || val === Themes.HIGH_CONTRAST
       }
     }
+  },
+  mounted() {
+    window.addEventListener('beforeinstallprompt', e => {
+      e.preventDefault()
+      // Stash the event so it can be triggered later.
+      this.pwaInstallPrompt = e
+    })
+    window.addEventListener('appinstalled', () => {
+      this.pwaInstallPrompt = null
+    })
   }
 }
 </script>

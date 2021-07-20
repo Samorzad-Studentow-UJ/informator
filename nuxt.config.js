@@ -46,7 +46,8 @@ export default {
     // '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxt/content',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/sitemap'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -177,5 +178,9 @@ export default {
       lg: 1904,
       xl: 1904
     }
-  }
+  },
+
+  sitemap: {
+    hostname: 'https://infossuj.pardyl.com/' // todo: update before deploy.
+  },
 }
