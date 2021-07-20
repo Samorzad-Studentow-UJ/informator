@@ -4,8 +4,11 @@ export default {
   theme: {
     light: 'Light',
     dark: 'Dark',
-    highContrast: 'High contrast',
+    highContrast: 'High contrast'
   },
   pageLastUpdated: 'This page was last updated at',
   home: 'Home',
+  pwaInstall: 'Install as an app',
+  yes: 'yes',
+  no: 'no'
 }

@@ -8,7 +8,8 @@ export const Themes = {
 
 export const state = () => {
   return {
-    theme: Themes.LIGHT
+    theme: Themes.LIGHT,
+    pwaDismissed: false,
   }
 }
 

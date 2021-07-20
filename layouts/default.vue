@@ -46,11 +46,11 @@
       <page-tree />
       <template #append>
         <v-list>
-          <v-list-item v-if='pwaInstallPrompt' @click='pwaInstallPrompt.prompt()'>
+          <v-list-item v-if='pwaInstallPrompt' @click='pwaInstall'>
             <v-list-item-icon>
               <v-icon>mdi-devices</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Install App</v-list-item-title>
+            <v-list-item-title>{{ $t('pwaInstall') }}</v-list-item-title>
           </v-list-item>
         </v-list>
       </template>
@@ -78,22 +78,52 @@
         {{ $t('ssuj') }}</a></strong>
       </v-col>
     </v-footer>
+    <v-snackbar
+      v-model='pwaInstallSnackbar'
+      :timeout='-1'
+      bottom
+      elevation='10'
+      transition='fade-transition'
+      app
+    >
+      {{ $t('pwaInstall') }}
+      <template #action='{ attrs }'>
+        <v-btn
+          text
+          v-bind='attrs'
+          color='error'
+          @click='pwaDismiss'
+        >
+          {{ $t('no') }}
+        </v-btn>
+        <v-btn
+          text
+          v-bind='attrs'
+          color='success'
+          @click='pwaInstall'
+        >
+          {{ $t('yes') }}
+        </v-btn>
+      </template>
+    </v-snackbar>
   </v-app>
 </template>
 
 <script>
-import { get } from 'vuex-pathify'
+import { get, sync } from 'vuex-pathify'
 import { Themes } from '~/store/user'
 
 export default {
   data() {
     return {
       drawer: null,
-      pwaInstallPrompt: null
+      pwaInstallPrompt: null,
+      pwaInstallSnackbar: false
     }
   },
   computed: {
     theme: get('user/theme'),
+    pwaDismissed: sync('user/pwaDismissed'),
     logo() {
       if (this.theme === Themes.LIGHT) {
         return '/ssuj.png'
@@ -115,10 +145,22 @@ export default {
       e.preventDefault()
       // Stash the event so it can be triggered later.
       this.pwaInstallPrompt = e
+      this.pwaInstallSnackbar = !this.pwaDismissed
     })
     window.addEventListener('appinstalled', () => {
       this.pwaInstallPrompt = null
+      this.pwaInstallSnackbar = false
     })
+  },
+  methods: {
+    pwaInstall() {
+      this.pwaInstallSnackbar = false
+      this.pwaInstallPrompt.prompt()
+    },
+    pwaDismiss() {
+      this.pwaDismissed = true
+      this.pwaInstallSnackbar = false
+    }
   }
 }
 </script>
