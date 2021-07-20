@@ -43,14 +43,14 @@
 <script>
 export default {
   name: 'PageTreeItem',
-  data: () => ({
-    active: null
-  }),
   props: {
     'row': {
       type: Object,
       default: () => ({})
     }
-  }
+  },
+  data: () => ({
+    active: null
+  }),
 }
 </script>
