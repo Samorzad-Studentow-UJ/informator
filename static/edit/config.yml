@@ -23,7 +23,7 @@ collections:
     create: true
     sortableFields: [ 'title' ]
     nested:
-      depth: 3
+      depth: 4
       summary: '{{title}}'
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
