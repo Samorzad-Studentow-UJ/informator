@@ -21,7 +21,7 @@ collections:
     create: true
     sortableFields: [ 'title' ]
     nested:
-      depth: 6
+      depth: 3
       summary: '{{title}}'
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
     fields:
