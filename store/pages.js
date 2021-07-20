@@ -9,7 +9,7 @@ function capitalize(s) {
 }
 
 function comparePages(page1, page2) {
-  return ((page1.order !== undefined) ? page1.order : 0) - ((page2.order !== undefined) ? page2.order : 0)
+  return ((page1.order !== undefined) ? parseInt(page1.order) : 0) - ((page2.order !== undefined) ? parseInt(page2.order) : 0)
 }
 
 function buildPageTree(articles, context) {
@@ -60,7 +60,7 @@ export const mutations = make.mutations(state)
 
 export const actions = {
   init(context) {
-    return this.$content('', { deep: true }).only(['title', 'path', 'icon']).fetch().then(res => {
+    return this.$content('', { deep: true }).only(['title', 'path', 'icon', 'order']).fetch().then(res => {
       const [tree, pages] = buildPageTree(res, this)
       context.commit('SET_PAGES', pages)
       context.commit('SET_TREE', tree)

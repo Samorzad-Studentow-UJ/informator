@@ -1,7 +1,7 @@
 <template>
   <v-list>
     <v-list-item
-      :to='localePath("/")' exact>
+      :to='localePath("/")' exact nuxt>
       <v-list-item-icon>
         <v-icon>mdi-home</v-icon>
       </v-list-item-icon>

@@ -17,8 +17,6 @@ Suspendisse potenti. Nulla vitae feugiat turpis, a feugiat dolor. Donec sceleris
 
 Nulla imperdiet ultrices lectus, vitae egestas elit molestie id. Vestibulum a metus dui. Ut neque mauris, semper ac convallis et, congue vitae quam. Suspendisse facilisis lacus non sapien finibus, non volutpat magna semper. Pellentesque posuere mi ut odio eleifend, luctus congue ipsum tristique. In malesuada, nisi quis auctor posuere, mi mi congue purus, ut varius massa sapien eget est. Vestibulum iaculis metus sed ullamcorper molestie. Phasellus mattis ipsum mi, sed molestie risus mollis sed.
 
-## H2 Heading
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
 
 ### h3 Heading

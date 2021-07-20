@@ -64,13 +64,13 @@ export default {
       description: 'Wszystko co musisz wiedzieć studiując na UJ',
       lang: 'pl',
       mobileAppIOS: true,
-      nativeUI: true,
+      nativeUI: true
     },
     manifest: {
       name: 'Informator Studenta UJ',
       short_name: 'InformatorUJ',
       description: 'Wszystko co musisz wiedzieć studiując na UJ.',
-      lang: 'pl',
+      lang: 'pl'
     }
   },
 
@@ -123,6 +123,16 @@ export default {
   build: {
     extend(config, ctx) {
       config.devtool = 'eval-source-map'
+    },
+    extractCSS: true
+  },
+
+  generate: {
+    routes() {
+      const { $content } = require('@nuxt/content')
+      return $content({ deep: true }).only(['path']).fetch().then(res => {
+        return res.map(item => item.path.substring(0, item.path.lastIndexOf('/') + 1))
+      })
     }
   },
 

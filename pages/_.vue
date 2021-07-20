@@ -1,12 +1,6 @@
 <template>
   <div class='article pa-4 pa-sm-6 pa-md-8'>
-    <v-breadcrumbs class='px-0 pt-0'
-                   :items='breadcrumbs'
-    >
-      <template #divider>
-        <v-icon>mdi-chevron-right</v-icon>
-      </template>
-    </v-breadcrumbs>
+    <bread-crumbs/>
     <article>
       <h1 class='text-h2 mb-5'>{{ article.title }}</h1>
       <nuxt-content :document='article' />
@@ -20,15 +14,6 @@
 
 <script>
 
-import { get } from 'vuex-pathify'
-
-function buildBreadCrumbs(path, pages) {
-  const page = pages[path]
-  if (page.parent === null) {
-    return []
-  }
-  return [...buildBreadCrumbs(page.parent, pages), page]
-}
 
 export default {
   name: 'ContentView',
@@ -57,29 +42,6 @@ export default {
       ]
     }
   },
-  computed: {
-    pages: get('pages/pages'),
-    breadcrumbs() {
-      const path = `/${this.$i18n.locale}/${this.$route.params.pathMatch}`
-      const breadCrumbs = buildBreadCrumbs(path, this.pages)
-      const crumbs = [
-        {
-          text: this.$t('home'),
-          disabled: false,
-          href: this.localePath('/')
-        }
-      ]
-      breadCrumbs.forEach(item => {
-        crumbs.push({
-          text: item.title,
-          href: item.path + '/',
-          disabled: item.stub === true
-        })
-      })
-      crumbs[crumbs.length - 1].disabled = true
-      return crumbs
-    }
-  }
 }
 </script>
 

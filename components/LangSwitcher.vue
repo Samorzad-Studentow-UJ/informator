@@ -19,7 +19,7 @@
       <v-list-item
         v-for='locale in $i18n.locales'
         :key='locale.code'
-        :to='switchLocalePath(locale.code)'
+        :to='localePath("/", locale.code)'
         nuxt
       >
         <v-list-item-title>{{ locale.name }}</v-list-item-title>

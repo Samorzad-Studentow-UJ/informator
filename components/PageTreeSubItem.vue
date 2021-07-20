@@ -1,23 +1,34 @@
 <template>
   <v-list-group
     v-if='row.subpages.length > 0'
-    :prepend-icon='"mdi-" + row.icon'
+    :append-icon='"mdi-" + row.icon'
+    no-action
+    sub-group
   >
     <template #activator>
-      <v-list-item-title>{{ row.title }}</v-list-item-title>
+      <v-list-item-content>
+        <v-list-item-title>{{ row.title }}</v-list-item-title>
+      </v-list-item-content>
     </template>
-    <page-tree-sub-item
-      v-for='item in row.subpages'
-      :key='item.path'
-      :row='item'
-    />
 
+    <v-list-item
+      v-for='subitem in row.subpages'
+      :key='subitem.path'
+      :to='subitem.path + "/"'
+      exact-path
+      nuxt
+    >
+      <v-list-item-title v-text='subitem.title'></v-list-item-title>
+      <v-list-item-icon>
+        <v-icon v-text='subitem.icon'></v-icon>
+      </v-list-item-icon>
+    </v-list-item>
   </v-list-group>
   <v-list-item
     v-else
     :to='row.path + "/"'
-    exact-path
-    nuxt>
+    nuxt
+    exact-path>
     <v-list-item-icon>
       <v-icon v-if='row.icon'>mdi-{{ row.icon }}</v-icon>
     </v-list-item-icon>
