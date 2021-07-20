@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'ContentImg',
+  name: 'ContentImage',
   props: {
     src: { type: String, required: true },
     alt: { type: String, default: undefined },

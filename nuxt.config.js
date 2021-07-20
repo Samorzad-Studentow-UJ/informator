@@ -38,7 +38,7 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-    '@nuxt/image',
+    '@nuxt/image'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -78,8 +78,11 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     markdown: {
+      remarkPlugins: [
+        '~/plugins/remark-content-image.js'
+      ],
       rehypePlugins: [
-        'rehype-add-classes', "~/plugins/rehype-content-image.js"
+        'rehype-add-classes'
       ],
       rehypeAddClasses: {
         h2: 'text-h3 mb-3 mt-7',
@@ -172,7 +175,7 @@ export default {
       sm: 960,
       md: 1264,
       lg: 1904,
-      xl: 1904,
-    },
+      xl: 1904
+    }
   }
 }
