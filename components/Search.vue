@@ -56,8 +56,9 @@ export default {
   },
   methods: {
     getDescription(item) {
-      if (item.description.length > 20) {
-        return item.description.substring(20) + '...'
+      if (item.description.length > 100) {
+        console.log(item.description.substring(0, 100) + '...')
+        return item.description.substring(0, 100) + '...'
       }
       return item.description
     },

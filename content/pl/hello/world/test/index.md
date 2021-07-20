@@ -1,6 +1,6 @@
 ---
 title: netlify test
-icon: mdi-file
+icon: file
 description: test test
 ---
 ## test

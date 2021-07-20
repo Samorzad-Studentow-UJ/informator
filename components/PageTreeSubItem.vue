@@ -1,7 +1,6 @@
 <template>
   <v-list-group
     v-if='row.subpages.length > 0'
-    :append-icon='"mdi-" + row.icon'
     no-action
     sub-group
   >
@@ -9,6 +8,9 @@
       <v-list-item-content>
         <v-list-item-title>{{ row.title }}</v-list-item-title>
       </v-list-item-content>
+      <v-list-item-icon>
+        <v-icon>mdi-{{ row.icon }}</v-icon>
+      </v-list-item-icon>
     </template>
 
     <v-list-item
@@ -20,7 +22,7 @@
     >
       <v-list-item-title v-text='subitem.title'></v-list-item-title>
       <v-list-item-icon>
-        <v-icon v-text='subitem.icon'></v-icon>
+        <v-icon>mdi-{{ subitem.icon }}</v-icon>
       </v-list-item-icon>
     </v-list-item>
   </v-list-group>
@@ -30,9 +32,11 @@
     nuxt
     exact-path>
     <v-list-item-icon>
-      <v-icon v-if='row.icon'>mdi-{{ row.icon }}</v-icon>
     </v-list-item-icon>
     <v-list-item-title>{{ row.title }}</v-list-item-title>
+    <v-list-item-icon>
+      <v-icon v-if='row.icon'>mdi-{{ row.icon }}</v-icon>
+    </v-list-item-icon>
   </v-list-item>
 </template>
 
