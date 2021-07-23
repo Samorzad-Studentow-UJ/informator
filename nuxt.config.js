@@ -66,7 +66,7 @@ export default {
       description: 'Wszystko co musisz wiedzieć studiując na UJ',
       lang: 'pl',
       mobileAppIOS: true,
-      nativeUI: true
+      viewport: 'width=device-width, initial-scale=1',
     },
     manifest: {
       name: 'Informator Studenta UJ',

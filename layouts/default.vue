@@ -44,16 +44,19 @@
       </div>
 
       <page-tree />
-      <template #append>
-        <v-list>
-          <v-list-item v-if='pwaInstallPrompt' @click='pwaInstall'>
-            <v-list-item-icon>
-              <v-icon>mdi-devices</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>{{ $t('pwaInstall') }}</v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </template>
+      <v-scale-transition>
+        <div v-if='pwaInstallPrompt && !pwaInstallSnackbar' class='pa-2 mt-4'>
+          <v-btn
+            block
+            outlined
+            small
+            @click='pwaInstall'
+          >
+            <v-icon left>mdi-devices</v-icon>
+            {{ $t('pwaInstall') }}
+          </v-btn>
+        </div>
+      </v-scale-transition>
     </v-navigation-drawer>
     <v-main>
       <v-container>
@@ -82,7 +85,7 @@
       v-model='pwaInstallSnackbar'
       :timeout='-1'
       bottom
-      elevation='10'
+      elevation='5'
       transition='fade-transition'
       app
     >
