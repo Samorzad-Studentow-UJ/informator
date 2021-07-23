@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pl/hello", (function(a){return {data:[{article:{slug:"index",title:"Coś",icon:"rocket",order:9999,toc:[],body:{type:"root",children:[]},dir:"\u002Fpl\u002Fhello",path:"\u002Fpl\u002Fhello\u002Findex",extension:".md",createdAt:a,updatedAt:a},_img:{}}],fetch:{},mutations:[]}}("2021-07-23T09:36:06.771Z")));
