@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pl/hello/world", (function(a){return {data:[{article:{slug:"index",title:"Coś innego",icon:"car",order:9999,toc:[],body:{type:"root",children:[]},dir:"\u002Fpl\u002Fhello\u002Fworld",path:"\u002Fpl\u002Fhello\u002Fworld\u002Findex",extension:".md",createdAt:a,updatedAt:a},_img:{}}],fetch:{},mutations:[]}}("2021-07-25T21:34:52.011Z")));
