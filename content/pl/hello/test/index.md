@@ -25,6 +25,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam r
 
 ### h3 Heading
 
+<v-alert type="warning" outlined border="left">Test 1234</v-alert>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
 
 #### h4 Heading
@@ -110,4 +112,4 @@ Start numbering with offset:
 57. foo
 58. bar
 
-<v-alert type='error' icon='' color='' outlined border='left'>Nothing is a thing</v-alert>
+<v-alert type='error' outlined border='left'>Lorem ipsum dolor sit amet!</v-alert>
