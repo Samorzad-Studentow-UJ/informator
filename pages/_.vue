@@ -1,6 +1,6 @@
 <template>
   <div class='article pa-4 pa-sm-6 pa-md-8'>
-    <bread-crumbs/>
+    <bread-crumbs />
     <article>
       <h1 class='text-h2 mb-5'>{{ article.title }}</h1>
       <nuxt-content :document='article' />
@@ -41,7 +41,7 @@ export default {
         }
       ]
     }
-  },
+  }
 }
 </script>
 
