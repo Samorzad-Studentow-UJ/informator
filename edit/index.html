@@ -8,5 +8,44 @@
 </head>
 <body>
 <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+<script>
+  CMS.registerEditorComponent({
+    // Internal id of the component
+    id: 'alert',
+    // Visible label
+    label: 'Alert',
+    // Fields the user need to fill out when adding an instance of the component
+    fields: [
+      { name: 'text', label: 'text', widget: 'text' },
+      {
+        name: 'type',
+        label: 'type',
+        widget: 'select',
+        default: 'info',
+        options: ['info', 'success', 'warning', 'error']
+      }
+    ],
+    // Pattern to identify a block as being an instance of this component
+    pattern: /^<v-alert type='(\w*)' outlined border='left'>([^<]*)<\/v-alert>$/,
+    // Function to extract data elements from the regexp match
+    fromBlock: function(match) {
+      return {
+        text: match[2],
+        type: match[1],
+      }
+    },
+    // Function to create a text block from an instance of this component
+    toBlock: function(obj) {
+      return `<v-alert type='${obj.type}' outlined border='left'>${obj.text ?? ''}</v-alert>`
+    },
+    // Preview output for this component. Can either be a string or a React component
+    // (component gives better render performance)
+    toPreview: function(obj) {
+      return (
+        `\[ALERT ${obj.type ?? ''}\] ${obj.text ?? ''}`
+      )
+    }
+  })
+</script>
 </body>
 </html>
