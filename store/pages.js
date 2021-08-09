@@ -17,7 +17,9 @@ function buildPageTree(articles, context) {
     item.path = dirName(item.path)
   })
   articles.forEach(item => {
-    item.stub = false
+    if (item.stub === undefined) {
+      item.stub = false
+    }
   })
   const byPath = Object.fromEntries(articles.map((item) => ([item.path, item])))
   Object.keys(byPath).forEach(path => {
@@ -60,7 +62,7 @@ export const mutations = make.mutations(state)
 
 export const actions = {
   init(context) {
-    return this.$content('', { deep: true }).only(['title', 'path', 'icon', 'order']).fetch().then(res => {
+    return this.$content('', { deep: true }).only(['title', 'path', 'icon', 'order', 'stub']).fetch().then(res => {
       const [tree, pages] = buildPageTree(res, this)
       context.commit('SET_PAGES', pages)
       context.commit('SET_TREE', tree)

@@ -50,6 +50,7 @@
       </ul>
     </v-navigation-drawer>
     <v-btn
+      v-if='toc.length > 0'
       class='hidden-lg-and-up'
       color="accent"
       elevation="6"

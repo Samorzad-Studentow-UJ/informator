@@ -26,7 +26,7 @@
       app
       clipped
       floating
-      width='300'
+      width='350'
     >
       <div class='mr-2 hidden-lg-and-up'>
         <v-list-item class='mr-2 hidden-lg-and-up'>

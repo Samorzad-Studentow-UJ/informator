@@ -48,6 +48,7 @@ export default {
       this.loading = true
       this.items = await this.$content(this.$i18n.locale,
         { deep: true, text: true })
+        .where({stub: {$ne: true}})
         .limit(5)
         .search(searchQuery)
         .fetch()
@@ -56,6 +57,9 @@ export default {
   },
   methods: {
     getDescription(item) {
+      if (item.description === undefined) {
+        return ''
+      }
       if (item.description.length > 100) {
         return item.description.substring(0, 100) + '...'
       }

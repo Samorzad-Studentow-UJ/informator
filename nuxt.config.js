@@ -73,6 +73,37 @@ export default {
       short_name: 'InformatorUJ',
       description: 'Wszystko co musisz wiedzieć studiując na UJ.',
       lang: 'pl'
+    },
+    workbox: {
+      runtimeCaching: [
+        {
+          urlPattern: 'https://fonts.googleapis.com/.*',
+          handler: 'cacheFirst',
+          method: 'GET',
+          strategyOptions: {
+            cacheName: 'my-api-cache',
+            cacheableResponse: {statuses: [0, 200]}
+          }
+        },
+        {
+          urlPattern: 'https://fonts.gstatic.com/.*',
+          handler: 'cacheFirst',
+          method: 'GET',
+          strategyOptions: {
+            cacheName: 'my-api-cache',
+            cacheableResponse: {statuses: [0, 200]}
+          }
+        },
+        {
+          urlPattern: 'https://cdn.jsdelivr.net/npm/@mdi/.*',
+          handler: 'cacheFirst',
+          method: 'GET',
+          strategyOptions: {
+            cacheName: 'my-api-cache',
+            cacheableResponse: {statuses: [0, 200]}
+          }
+        },
+      ]
     }
   },
 
