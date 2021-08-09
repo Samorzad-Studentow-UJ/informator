@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/pl/pomoc", (function(a){return {data:[{article:{slug:"index",title:"Pomoc",icon:"lifebuoy",order:90,stub:true,toc:[],body:{type:"root",children:[]},dir:"\u002Fpl\u002Fpomoc",path:"\u002Fpl\u002Fpomoc\u002Findex",extension:".md",createdAt:a,updatedAt:a},_img:{}}],fetch:{},mutations:[]}}("2021-08-09T17:26:54.636Z")));
