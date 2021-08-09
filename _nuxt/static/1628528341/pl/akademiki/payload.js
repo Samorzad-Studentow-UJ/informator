@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/pl/akademiki", (function(a){return {data:[{article:{slug:"index",title:"Akademiki",icon:"bed",order:50,stub:true,toc:[],body:{type:"root",children:[]},dir:"\u002Fpl\u002Fakademiki",path:"\u002Fpl\u002Fakademiki\u002Findex",extension:".md",createdAt:a,updatedAt:a},_img:{}}],fetch:{},mutations:[]}}("2021-08-09T16:57:43.917Z")));
