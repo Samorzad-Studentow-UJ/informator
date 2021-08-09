@@ -5,7 +5,7 @@
       :alt='alt'
       :title='title'
       contain
-      max-height='600' />
+      max-height='400' />
     <figcaption class='text-subtitle-2 mt-2'>{{ title }}</figcaption>
   </figure>
 </template>
@@ -24,7 +24,7 @@ export default {
         fit: 'inside',
         quality: 75,
         width: 1200,
-        height: 600
+        height: 400
       })
     },
   }
