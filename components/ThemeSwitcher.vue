@@ -1,30 +1,11 @@
 <template>
-  <v-menu
-    left
-    bottom
+  <v-btn
+    class='px-1'
+    text
+    @click='onClick'
   >
-    <template #activator='{ on, attrs }'>
-      <v-btn
-        class='px-1'
-        text
-        v-bind='attrs'
-        v-on='on'
-      >
-        <v-icon>mdi-contrast-box</v-icon>
-        <v-icon>mdi-menu-down</v-icon>
-      </v-btn>
-    </template>
-
-    <v-list>
-      <v-list-item
-        v-for='item in themes'
-        :key='item.key'
-        @click='onClick(item.key)'
-      >
-        <v-list-item-title>{{ item.name }}</v-list-item-title>
-      </v-list-item>
-    </v-list>
-  </v-menu>
+    <v-icon>mdi-contrast-box</v-icon>
+  </v-btn>
 </template>
 
 <script>
@@ -37,23 +18,11 @@ export default {
     return {}
   },
   computed: {
-    theme: sync('user/theme'),
-    themes() {
-      return [
-        {
-          key: Themes.LIGHT,
-          name: this.$t('theme.light')
-        },
-        {
-          key: Themes.DARK,
-          name: this.$t('theme.dark')
-        },
-      ]
-    }
+    theme: sync('user/theme')
   },
   methods: {
-    onClick(key) {
-      this.theme = key
+    onClick() {
+      this.theme = (this.theme === Themes.DARK) ? Themes.LIGHT : Themes.DARK
     }
   }
 }

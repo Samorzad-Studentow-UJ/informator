@@ -9,8 +9,8 @@
       clipped
       right
       floating
-      width='300'
-      color='rgb(0, 0, 0, 0)'
+      width='250'
+      :color='($vuetify.breakpoint.mobile) ? undefined : "rgb(0, 0, 0, 0)"'
     >
       <template
         v-if='toc.length'

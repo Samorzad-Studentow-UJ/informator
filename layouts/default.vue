@@ -26,8 +26,8 @@
       app
       clipped
       floating
-      width='350'
-      color='rgb(0, 0, 0, 0)'
+      width='330'
+      :color='($vuetify.theme.dark) ? "#232323" : undefined'
     >
       <div class='mr-2 hidden-lg-and-up'>
         <v-list-item class='mr-2 hidden-lg-and-up'>
