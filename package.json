@@ -22,6 +22,7 @@
     "nuxt": "^2.15.7",
     "nuxt-i18n": "^6.27.3",
     "rehype-add-classes": "^1.0.0",
+    "remark-gfm": "^1.0.0",
     "unist-util-visit": "^2.0.3",
     "vuetify": "^2.5.5",
     "vuex-pathify": "^1.4.5",

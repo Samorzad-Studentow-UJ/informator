@@ -3,7 +3,6 @@ import { make } from 'vuex-pathify'
 export const Themes = {
   LIGHT: 'light',
   DARK: 'dark',
-  HIGH_CONTRAST: 'contrast'
 }
 
 export const state = () => {

@@ -4,7 +4,6 @@ export default {
   theme: {
     light: 'Light',
     dark: 'Dark',
-    highContrast: 'High contrast'
   },
   pageLastUpdated: 'This page was last updated at',
   home: 'Home',

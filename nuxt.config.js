@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -66,7 +64,7 @@ export default {
       description: 'Wszystko co musisz wiedzieć studiując na UJ',
       lang: 'pl',
       mobileAppIOS: true,
-      viewport: 'width=device-width, initial-scale=1',
+      viewport: 'width=device-width, initial-scale=1'
     },
     manifest: {
       name: 'Informator Studenta UJ',
@@ -82,7 +80,7 @@ export default {
           method: 'GET',
           strategyOptions: {
             cacheName: 'my-api-cache',
-            cacheableResponse: {statuses: [0, 200]}
+            cacheableResponse: { statuses: [0, 200] }
           }
         },
         {
@@ -91,7 +89,7 @@ export default {
           method: 'GET',
           strategyOptions: {
             cacheName: 'my-api-cache',
-            cacheableResponse: {statuses: [0, 200]}
+            cacheableResponse: { statuses: [0, 200] }
           }
         },
         {
@@ -100,9 +98,9 @@ export default {
           method: 'GET',
           strategyOptions: {
             cacheName: 'my-api-cache',
-            cacheableResponse: {statuses: [0, 200]}
+            cacheableResponse: { statuses: [0, 200] }
           }
-        },
+        }
       ]
     }
   },
@@ -111,9 +109,12 @@ export default {
   content: {
     markdown: {
       remarkPlugins: [
-        '~/plugins/remark-content-image.js'
+        '~/plugins/remark-content-image.js',
+        'remark-gfm'
       ],
       rehypePlugins: [
+        '~/plugins/rehype-content-table.js',
+        'rehype-raw',
         'rehype-add-classes'
       ],
       rehypeAddClasses: {
@@ -123,7 +124,7 @@ export default {
         h5: 'text-h6 mb-2 mt-4',
         h6: 'text-subtitle-1 font-weight-medium mb-2 mt-3',
         p: 'text-body-1',
-        blockquote: 'blockquote'
+        blockquote: 'blockquote',
       },
       remarkAutolinkHeadings: {
         linkProperties: {
@@ -132,24 +133,23 @@ export default {
           className: ['heading-link']
         }
       },
-      fullTextSearchFields: ['title', 'description', 'text']
-    }
+      prism: {
+        theme: false
+      }
+    },
+    fullTextSearchFields: ['title', 'description', 'text']
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: false,
       themes: {
         dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+          primary: '#58a6ff'
+        },
+        light: {
+          primary: '#58a6ff'
         }
       }
     }
@@ -157,18 +157,22 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extend(config, ctx) {
-      config.devtool = 'eval-source-map'
-    },
-    extractCSS: true
+    // extend(config, ctx) {
+    //   config.devtool = 'eval-source-map'
+    // },
+    // extractCSS: true
   },
 
   generate: {
     routes() {
       const { $content } = require('@nuxt/content')
-      return $content({ deep: true }).only(['path']).fetch().then(res => {
-        return res.map(item => item.path.substring(0, item.path.lastIndexOf('/') + 1))
-      })
+      return $content({ deep: true })
+        .only(['path', 'stub'])
+        .where({ stub: { $ne: true } })
+        .fetch()
+        .then(res => {
+          return res.map(item => item.path.substring(0, item.path.lastIndexOf('/') + 1))
+        })
     }
   },
 
@@ -213,5 +217,5 @@ export default {
 
   sitemap: {
     hostname: 'https://infossuj.pardyl.com/' // todo: update before deploy.
-  },
+  }
 }

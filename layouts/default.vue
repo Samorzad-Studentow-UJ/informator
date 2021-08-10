@@ -27,6 +27,7 @@
       clipped
       floating
       width='350'
+      color='rgb(0, 0, 0, 0)'
     >
       <div class='mr-2 hidden-lg-and-up'>
         <v-list-item class='mr-2 hidden-lg-and-up'>
@@ -63,16 +64,7 @@
         <Nuxt />
       </v-container>
     </v-main>
-    <v-footer padless app class='hidden-md-and-down'>
-      <v-col
-        class='text-center'
-        cols='12'
-      >
-        {{ new Date().getFullYear() }} — <strong><a class='text-decoration-none' href='https://samorzad.uj.edu.pl/'>
-        {{ $t('ssuj') }}</a></strong>
-      </v-col>
-    </v-footer>
-    <v-footer padless class='hidden-lg-and-up'>
+    <v-footer padless color='rgba(0, 0, 0, 0)'>
       <v-col
         class='text-center'
         cols='12'
@@ -139,7 +131,7 @@ export default {
     theme: {
       immediate: true,
       handler(val) {
-        this.$vuetify.theme.dark = val === Themes.DARK || val === Themes.HIGH_CONTRAST
+        this.$vuetify.theme.dark = val !== Themes.LIGHT
       }
     }
   },

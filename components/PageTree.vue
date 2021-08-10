@@ -22,9 +22,10 @@ export default {
   computed: {
     tree: get('pages/tree'),
     currentTree() {
-      return this.tree.find(el => el.path === '/' + this.$i18n.locale).subpages
+      const tree = this.tree.find(el => el.path === '/' + this.$i18n.locale)
+      return tree !== undefined ? tree.subpages : []
     }
-  },
+  }
 }
 </script>
 

@@ -48,10 +48,6 @@ export default {
           key: Themes.DARK,
           name: this.$t('theme.dark')
         },
-        {
-          key: Themes.HIGH_CONTRAST,
-          name: this.$t('theme.highContrast')
-        }
       ]
     }
   },

@@ -62,10 +62,13 @@ export const mutations = make.mutations(state)
 
 export const actions = {
   init(context) {
-    return this.$content('', { deep: true }).only(['title', 'path', 'icon', 'order', 'stub']).fetch().then(res => {
-      const [tree, pages] = buildPageTree(res, this)
-      context.commit('SET_PAGES', pages)
-      context.commit('SET_TREE', tree)
-    })
+    return this.$content('', { deep: true })
+      .only(['title', 'path', 'icon', 'order', 'stub'])
+      .fetch()
+      .then(res => {
+        const [tree, pages] = buildPageTree(res, this)
+        context.commit('SET_PAGES', pages)
+        context.commit('SET_TREE', tree)
+      })
   }
 }
