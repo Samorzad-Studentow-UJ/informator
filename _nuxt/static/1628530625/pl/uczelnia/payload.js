@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/pl/uczelnia", (function(a){return {data:[{article:{slug:"index",title:"Uczelnia",icon:"bank",order:10,stub:true,toc:[],body:{type:"root",children:[]},dir:"\u002Fpl\u002Fuczelnia",path:"\u002Fpl\u002Fuczelnia\u002Findex",extension:".md",createdAt:a,updatedAt:a},_img:{}}],fetch:{},mutations:[]}}("2021-08-09T17:35:50.447Z")));

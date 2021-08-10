@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/pl/stypendia", (function(a){return {data:[{article:{slug:"index",title:"Stypendia",icon:"cash",order:40,stub:true,toc:[],body:{type:"root",children:[]},dir:"\u002Fpl\u002Fstypendia",path:"\u002Fpl\u002Fstypendia\u002Findex",extension:".md",createdAt:a,updatedAt:a},_img:{}}],fetch:{},mutations:[]}}("2021-08-09T17:35:50.447Z")));

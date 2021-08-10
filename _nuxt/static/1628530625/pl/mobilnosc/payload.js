@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/pl/mobilnosc", (function(a){return {data:[{article:{slug:"index",title:"Mobilność",icon:"earth",order:80,stub:true,toc:[],body:{type:"root",children:[]},dir:"\u002Fpl\u002Fmobilnosc",path:"\u002Fpl\u002Fmobilnosc\u002Findex",extension:".md",createdAt:a,updatedAt:a},_img:{}}],fetch:{},mutations:[]}}("2021-08-09T17:35:50.447Z")));
