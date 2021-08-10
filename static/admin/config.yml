@@ -36,7 +36,6 @@ collections:
         name: 'stub'
         widget: 'boolean'
         default: false
-        required: false
       - label: 'Description'
         name: 'description'
         widget: 'string'
@@ -66,6 +65,10 @@ collections:
         name: 'icon'
         widget: 'string'
         required: false
+      - label: 'Is category only?'
+        name: 'stub'
+        widget: 'boolean'
+        default: false
       - label: 'Description'
         name: 'description'
         widget: 'string'
