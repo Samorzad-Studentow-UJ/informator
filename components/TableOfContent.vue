@@ -105,7 +105,7 @@ export default {
       for (const item of toc) {
         const section = document.getElementById(item.id)
         if (!section) continue
-        offsets.push(section.offsetTop)
+        offsets.push(section.offsetTop - 40)
       }
       this.offsets = offsets
     },

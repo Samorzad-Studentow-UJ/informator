@@ -34,6 +34,11 @@ collections:
         name: 'icon'
         widget: 'string'
         required: false
+      - label: 'Order in menu'
+        name: 'order'
+        widget: 'number'
+        value_type: 'int'
+        required: false
       - label: 'Is category only?'
         name: 'stub'
         widget: 'boolean'
