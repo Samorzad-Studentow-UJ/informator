@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/404", {data:[{_img:{"/_ipx/images/uj_novum_blue.jpg?fit=inside&q=50&s=1500_1500":"\u002F_nuxt\u002Fimage\u002Ffd9776.jpg"}}],fetch:{},mutations:[]});
