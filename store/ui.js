@@ -2,7 +2,8 @@ import { make } from 'vuex-pathify'
 
 export const state = () => {
   return {
-    scrolling: false
+    scrolling: false,
+    drawer: null
   }
 }
 

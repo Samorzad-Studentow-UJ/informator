@@ -9,5 +9,6 @@ export default {
   home: 'Strona główna',
   pwaInstall: 'Zainstaluj jako aplikację',
   yes: 'tak',
-  no: 'nie'
+  no: 'nie',
+  studentguide: 'Informator Studenta'
 }

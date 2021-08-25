@@ -9,5 +9,6 @@ export default {
   home: 'Home',
   pwaInstall: 'Install as an app',
   yes: 'yes',
-  no: 'no'
+  no: 'no',
+  studentguide: 'Student Guide'
 }

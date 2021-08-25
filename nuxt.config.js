@@ -217,5 +217,11 @@ export default {
 
   sitemap: {
     hostname: 'https://infossuj.pardyl.com/' // todo: update before deploy.
+  },
+
+  loading: {
+    color: '#58a6ff',
+    continuous: true,
+    duration: 2000
   }
 }

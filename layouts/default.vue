@@ -60,19 +60,10 @@
       </v-scale-transition>
     </v-navigation-drawer>
     <v-main>
-      <v-container>
+      <v-container fluid style='height: 100%' class='pa-0'>
         <Nuxt />
       </v-container>
     </v-main>
-    <v-footer padless color='rgba(0, 0, 0, 0)'>
-      <v-col
-        class='text-center'
-        cols='12'
-      >
-        {{ new Date().getFullYear() }} — <strong><a class='text-decoration-none' href='https://samorzad.uj.edu.pl/'>
-        {{ $t('ssuj') }}</a></strong>
-      </v-col>
-    </v-footer>
     <v-snackbar
       v-model='pwaInstallSnackbar'
       :timeout='-1'
@@ -111,12 +102,12 @@ import { Themes } from '~/store/user'
 export default {
   data() {
     return {
-      drawer: null,
       pwaInstallPrompt: null,
       pwaInstallSnackbar: false
     }
   },
   computed: {
+    drawer: sync('ui/drawer'),
     theme: get('user/theme'),
     pwaDismissed: sync('user/pwaDismissed'),
     logo() {

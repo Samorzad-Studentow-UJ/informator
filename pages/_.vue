@@ -1,14 +1,25 @@
 <template>
-  <div class='article pa-4 pa-sm-6 pa-md-8'>
-    <bread-crumbs />
-    <article>
-      <h1 class='text-h2 mb-5'>{{ article.title }}</h1>
-      <nuxt-content :document='article' />
-      <table-of-content :toc='article.toc' />
-      <div class='text-caption text-right mt-4'>
-        {{ $t('pageLastUpdated') }}: {{ (new Date(article.updatedAt)).toISOString().split('T')[0] }}
-      </div>
-    </article>
+  <div class='fill-height d-flex flex-wrap flex-column justify-space-between'>
+    <div class='article pa-4 pa-sm-6 pa-md-8' style='width: 100%'>
+      <bread-crumbs />
+      <article>
+        <h1 class='text-h2 mb-5'>{{ article.title }}</h1>
+        <nuxt-content :document='article' />
+        <table-of-content :toc='article.toc' />
+        <div class='text-caption text-right mt-4'>
+          {{ $t('pageLastUpdated') }}: {{ (new Date(article.updatedAt)).toISOString().split('T')[0] }}
+        </div>
+      </article>
+    </div>
+    <v-footer padless color='rgba(0, 0, 0, 0)' class='mb-2'>
+      <v-col
+        class='text-center'
+        cols='12'
+      >
+        {{ new Date().getFullYear() }} — <strong><a class='text-decoration-none' href='https://samorzad.uj.edu.pl/'>
+        {{ $t('ssuj') }}</a></strong>
+      </v-col>
+    </v-footer>
   </div>
 </template>
 
@@ -19,7 +30,7 @@ export default {
   name: 'ContentView',
   async asyncData({ $content, app, params, error }) {
     const path = `${app.i18n.locale}/${params.pathMatch}/index`
-    const article = await $content(path).where({stub: {$ne: true}}).fetch()
+    const article = await $content(path).where({ stub: { $ne: true } }).fetch()
 
     if (!article) {
       return error({ statusCode: 404, message: 'Article not found' })
