@@ -1,18 +1,33 @@
 <template>
-  <div>
-    <h1 v-if='error.statusCode === 404'>
-      {{ pageNotFound }}
-    </h1>
-    <h1 v-else>
-      {{ otherError }}
-    </h1>
-    <NuxtLink to='/'>Home page</NuxtLink>
-  </div>
+  <v-card flat tile class='fill-height' color='#005ca7'>
+    <v-row class='py-5 d-flex align-content-center flex-wrap fill-height with-background'
+           :style='`background-image: url("${background_img}");`'>
+      <v-card width='400' class='mx-auto mt-9' elevation='5'>
+        <v-card-title v-if='error.statusCode === 404'>
+          {{ $t('notFound') }}
+        </v-card-title>
+        <v-card-title v-else>
+          {{ $t('error') }}
+        </v-card-title>
+        <v-card-text class='text-center'>
+          <v-icon x-large>mdi-emoticon-sad-outline</v-icon>
+        </v-card-text>
+        <v-card-actions>
+          <v-spacer></v-spacer>
+          <v-btn
+            text color='primary'
+            to='/'
+          >
+            {{ $t('home') }}
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-row>
+  </v-card>
 </template>
 
 <script>
 export default {
-  layout: 'empty',
   props: {
     error: {
       type: Object,
@@ -20,23 +35,32 @@ export default {
     }
   },
   data() {
-    return {
-      pageNotFound: '404 Not Found',
-      otherError: 'An error occurred'
-    }
+    return {}
   },
   head() {
     const title =
-      this.error.statusCode === 404 ? this.pageNotFound : this.otherError
+      this.error.statusCode === 404 ? this.$t('notFound') : this.$t('error')
     return {
       title
+    }
+  },
+  computed: {
+    background_img() {
+      return this.$img('/images/uj_novum_blue.jpg', {
+        fit: 'inside',
+        quality: 50,
+        width: 1500,
+        height: 1500
+      })
     }
   }
 }
 </script>
 
 <style scoped>
-h1 {
-  font-size: 20px;
+.with-background {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 </style>

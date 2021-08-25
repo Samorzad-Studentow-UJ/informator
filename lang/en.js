@@ -10,5 +10,7 @@ export default {
   pwaInstall: 'Install as an app',
   yes: 'yes',
   no: 'no',
-  studentguide: 'Student Guide'
+  studentguide: 'Student Guide',
+  notFound: 'Page not found',
+  error: 'An error occured',
 }

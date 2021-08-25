@@ -25,7 +25,7 @@ export default {
     background_img() {
       return this.$img('/images/uj_novum_blue.jpg', {
         fit: 'inside',
-        quality: 75,
+        quality: 50,
         width: 1500,
         height: 1500
       })

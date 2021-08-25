@@ -3,12 +3,14 @@ export default {
   tos: 'Spis treści',
   theme: {
     light: 'Jasny',
-    dark: 'Ciemny',
+    dark: 'Ciemny'
   },
   pageLastUpdated: 'Ostatnia aktualizacja tej strony',
   home: 'Strona główna',
   pwaInstall: 'Zainstaluj jako aplikację',
   yes: 'tak',
   no: 'nie',
-  studentguide: 'Informator Studenta'
+  studentguide: 'Informator Studenta',
+  notFound: 'Strona nie istnieje',
+  error: 'Wystąpił błąd',
 }
