@@ -30,14 +30,17 @@ export default {
   name: 'ContentView',
   async asyncData({ $content, app, params, error }) {
     const path = `${app.i18n.locale}/${params.pathMatch}/index`
-    const article = await $content(path).where({ stub: { $ne: true } }).fetch()
+    try {
+      const article = await $content(path).where({ stub: { $ne: true } }).fetch()
+      if (!article) {
+        return error({ statusCode: 404, message: 'Article not found' })
+      }
 
-    if (!article) {
+      return {
+        article
+      }
+    } catch(ex) {
       return error({ statusCode: 404, message: 'Article not found' })
-    }
-
-    return {
-      article
     }
   },
   data: () => ({}),

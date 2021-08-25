@@ -131,7 +131,9 @@ export default {
       e.preventDefault()
       // Stash the event so it can be triggered later.
       this.pwaInstallPrompt = e
-      this.pwaInstallSnackbar = !this.pwaDismissed
+      if (this.$vuetify.breakpoint.mdAndDown) {
+        this.pwaInstallSnackbar = !this.pwaDismissed
+      }
     })
     window.addEventListener('appinstalled', () => {
       this.pwaInstallPrompt = null

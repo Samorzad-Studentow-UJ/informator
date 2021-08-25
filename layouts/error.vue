@@ -1,7 +1,6 @@
 <template>
-  <v-card flat tile class='fill-height' color='#005ca7'>
-    <v-row class='py-5 d-flex align-content-center flex-wrap fill-height with-background'
-           :style='`background-image: url("${background_img}");`'>
+  <v-img :src='background_img' class='fill-height with-background'>
+    <div class='mx-3 d-flex align-content-center justify-center flex-wrap flex-column fill-height'>
       <v-card width='400' class='mx-auto mt-9' elevation='5'>
         <v-card-title v-if='error.statusCode === 404'>
           {{ $t('notFound') }}
@@ -22,8 +21,8 @@
           </v-btn>
         </v-card-actions>
       </v-card>
-    </v-row>
-  </v-card>
+    </div>
+  </v-img>
 </template>
 
 <script>
