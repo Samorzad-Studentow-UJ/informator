@@ -14,6 +14,7 @@
         max-height='70'
         max-width='150'
         contain
+        eager
         class='my-2 mr-2 hidden-md-and-down' />
       <v-spacer />
       <search />

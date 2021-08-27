@@ -24,6 +24,7 @@ export default {
         pagemode: 'none',
         view: 'FitH'
       },
+      PDFJS_URL: '/pdfjs/viewer.html',
     }
     PDFObject.embed(this.url, '#pdf-page', options)
   }
