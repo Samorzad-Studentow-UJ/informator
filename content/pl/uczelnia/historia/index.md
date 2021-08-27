@@ -19,32 +19,32 @@ tysiąca pracowników administracji.
 
 <content-timeline>
 
-  <content-timeline-item title='Początki Uczelni' opposite='12 maja 1364 r.'>
-    Król Kazimierz III Wielki powołuje do życia "studium generalne". W wydanym przywileju obiecuje uposażyć
+<content-timeline-item title='Początki Uczelni' opposite='12 maja 1364 r.'>
+Król Kazimierz III Wielki powołuje do życia "studium generalne". W wydanym przywileju obiecuje uposażyć
 trzy wydziały: prawa, medycyny i sztuk wyzwolonych (filozofii). Za życia fundatora funkcjonowały tylko dwa pierwsze.
 Po śmierci króla uczelnia przestała istnieć. 
-  </content-timeline-item>
+</content-timeline-item>
 
-  <content-timeline-item title='Odnowienie przez Władysława Jagiełłę' opposite='26 lipca 1400 r.'>
+<content-timeline-item title='Odnowienie przez Władysława Jagiełłę' opposite='26 lipca 1400 r.'>
 Uniwersytet został odnowiony przez króla Władysława Jagiełłę, do czego przyczynił się zapis w testamencie
 zmarłej rok wczesniej królowej Jadwigi. Do struktury dołączył 4 wydział - teologiczny, tym samym uczelnia
 uzyskała range Uniwersytetu.
 </content-timeline-item>
 
-  <content-timeline-item title='"Złoty okres"' opposite='XV wiek'>
+<content-timeline-item title='"Złoty okres"' opposite='XV wiek'>
 Na Uniwersytecie Krakowskim co rok podejmowało studia około 200 żaków, z czego prawie połowę
 stanowili obcokrajowcy. Renomą cieszyły się zwłaszcza prawo, matematyka i astronomia.
 Wykładają między innymi: Paweł Włodkowic i Stanisław ze Skalbmierza (współtwórcy koncepcji
 prawa międzynarodowego), Marcin Bylica z Olkusza, Wojciech z Brudziewa i Jan z Głogowa (astronomowie) czy
 Maciej Miechowita (medyk).
-  </content-timeline-item>
+</content-timeline-item>
 
-  <content-timeline-item title='Mikołaj Kopernik' opposite='1491 r.'>
-    Naukę w murach Uniwersytetu podejmuje Mikołaj Kopernik, autor przełomowego "De revolutionibus orbium
+<content-timeline-item title='Mikołaj Kopernik' opposite='1491 r.'>
+Naukę w murach Uniwersytetu podejmuje Mikołaj Kopernik, autor przełomowego "De revolutionibus orbium
 coelestium".
-  </content-timeline-item>
+</content-timeline-item>
 
-  <content-timeline-item title='Czasy reformacji' opposite='połowa XVI w.'>
+<content-timeline-item title='Czasy reformacji' opposite='połowa XVI w.'>
   </content-timeline-item>
 </content-timeline>
 

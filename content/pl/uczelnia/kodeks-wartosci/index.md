@@ -1,6 +1,7 @@
 ---
 title: Kodeks wartości
 order: 60
+description: 25 czerwca 2003 roku na posiedzeniu Senatu Uniwersytetu Jagiellońskiego przyjęty został Akademicki Kodeks Wartości. Powstanie tego dokumentu wynikło z potrzeby zdecydowanego zamanifestowania i podkreślenia zasad oraz wartości, którymi kieruje się wspólnota akademicka UJ.
 ---
 
 ## Akademicki Kodeks Wartości

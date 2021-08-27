@@ -221,7 +221,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://infossuj.pardyl.com/' // todo: update before deploy.
+    hostname: 'https://ssuj.info/' // todo: update before deploy.
   },
 
   loading: {
