@@ -108,7 +108,12 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     markdown: {
-      remarkPlugins: [
+      remarkPlugins: () => [
+        'remark-squeeze-paragraphs',
+        '~/plugins/remark-slug-nonascii.js',
+        'remark-autolink-headings',
+        'remark-external-links',
+        'remark-footnotes',
         '~/plugins/remark-content-image.js',
         'remark-gfm'
       ],
@@ -124,7 +129,7 @@ export default {
         h5: 'text-h6 mb-2 mt-4',
         h6: 'text-subtitle-1 font-weight-medium mb-2 mt-3',
         p: 'text-body-1',
-        blockquote: 'blockquote',
+        blockquote: 'blockquote'
       },
       remarkAutolinkHeadings: {
         linkProperties: {

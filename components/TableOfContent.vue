@@ -110,9 +110,6 @@ export default {
       this.offsets = offsets
     },
     async findActiveIndex() {
-      if (this.$vuetify.breakpoint.mobile) {
-        return
-      }
       const toc = this.toc
       const currentOffset = (
         window.pageYOffset ||
