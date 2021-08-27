@@ -13,7 +13,7 @@ Do zadań Prorektora ds. Collegium Medicum należy:
 * reprezentowanie Collegium Medicum, w tym także wobec innych organów Uniwersytetu;
 * nadzór nad działalnością wszystkich jednostek Collegium Medicum;
 * przedstawianie Rektorowi wniosków i sprawozdań dotyczących Collegium Medicum;
-* prowadzenie gospodarki finansowej w Collegium Medicum zgodnie z planem rzeczowofinansowym Uniwersytetu;
+* prowadzenie gospodarki finansowej w Collegium Medicum zgodnie z planem rzeczowo-finansowym Uniwersytetu;
 * wydawanie aktów wewnętrznych dotyczących jednostek organizacyjnych wchodzących w skład Collegium Medicum w zakresie
   wykonywanych przez siebie zadań;
 * wydawanie z upoważnienia Rektora decyzji administracyjnych w sprawach dotyczących Collegium Medicum;
@@ -32,7 +32,7 @@ Do zadań Prorektora ds. Collegium Medicum należy:
   Medicum, z uwzględnieniem uczestnictwa nauczycieli akademickich w sprawowaniu opieki zdrowotnej;
 * przeprowadzanie w Collegium Medicum oceny nauczycieli akademickich na podstawie kryteriów ustalonych przez Rektora;
 * wykonywanie z upoważnienia Rektora ustawowych i statutowych obowiązków podmiotu tworzącego wobec uniwersyteckich
-  podmiotów leczniczych w zakresie niezastrzeżonym do kompetencji Senatu oraz z zastrzeżeniem § 208 ust. 1;
+  podmiotów leczniczych w zakresie niezastrzeżonym do kompetencji Senatu oraz z zastrzeżeniem § 208 ust. 1 statutu;
 * reprezentowanie Uniwersytetu z upoważnienia Rektora w zakresie działalności Collegium Medicum w kontaktach z organami
   administracji państwowej, samorządowej i innymi organami, a w szczególności organami samorządów zawodów medycznych,
   organizacjami społecznymi i charytatywnymi;

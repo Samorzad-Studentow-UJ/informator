@@ -29,9 +29,9 @@ Rektor odpowiada w szczególności za:
 * realizację zadań w zakresie spraw obronnych, zarządzania kryzysowego i obrony cywilnej – ochrony ludności;
 * podejmowanie decyzji w sprawach określonych w ustawie – Prawo o szkolnictwie wyższym i nauce.
 
-### Zwrot grzecznościowy
+### Warto wiedzieć
 
-W sytuacjach oficjalnych rektora uczelni tytułować należy "Jego Magnificencja".
+W sytuacjach oficjalnych Rektora uczelni tytułować należy "Jego Magnificencja".
 
 ### Biografia
 
