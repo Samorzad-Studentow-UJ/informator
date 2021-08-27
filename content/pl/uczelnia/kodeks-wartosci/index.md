@@ -276,4 +276,4 @@ pilna dbałość o urzeczywistnianie wolności w każdym wymiarze, w tym także 
 bezpośredniej afirmacji w codziennej praktyce funkcjonowania struktur akademickich oraz
 w wychowaniu do wolności młodych pokoleń.
 
-Kraków, 25 czerwca 2003 roku 
+> Kraków, 25 czerwca 2003 roku 

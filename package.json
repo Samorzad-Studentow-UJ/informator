@@ -21,6 +21,7 @@
     "lodash": "^4.17.21",
     "nuxt": "^2.15.7",
     "nuxt-i18n": "^6.27.3",
+    "pdfobject": "^2.2.6",
     "rehype-add-classes": "^1.0.0",
     "remark-gfm": "^1.0.0",
     "unist-util-visit": "^2.0.3",

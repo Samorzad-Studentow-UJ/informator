@@ -1,5 +1,6 @@
 <template>
-  <div class='fill-height d-flex flex-wrap flex-column justify-space-between'>
+  <PdfView v-if='article.pdf' :url='article.pdf'></PdfView>
+  <div v-else class='fill-height d-flex flex-wrap flex-column justify-space-between'>
     <div class='article pa-4 pa-sm-6 pa-md-8' style='width: 100%'>
       <bread-crumbs />
       <article>

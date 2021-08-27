@@ -621,7 +621,6 @@ function transformer(ast) {
     if (/^\d/.test(id)) {
       id = 'h' + id
     }
-    console.log(id)
 
     data.id = id
     props.id = id

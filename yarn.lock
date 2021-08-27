@@ -7860,6 +7860,11 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+pdfobject@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/pdfobject/-/pdfobject-2.2.6.tgz#cb8a0b7697af88df8af017b5fd4a7a42abb6e031"
+  integrity sha512-3B8re2yWzBcI9Xa+QcRptw0ag5NQYyVHVxP1yEWW7aCm6ujvZa8z7/06uz/zZqsI2TDLzsED3yS4JEMwQdCGEg==
+
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
