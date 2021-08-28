@@ -4,7 +4,7 @@ backend:
   repo: Samorzad-Studentow-UJ/informator
 media_folder: 'static/images/uploads'
 public_folder: '/images/uploads'
-site_url: https://infossuj.pardyl.com
+site_url: https://ssuj.info/
 slug:
   encoding: "ascii"
   clean_accents: true
