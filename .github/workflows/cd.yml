@@ -39,6 +39,9 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Update modification dates
+        run: ./get_modification_dates.sh
+
       - name: Generate
         run: yarn run generate
 

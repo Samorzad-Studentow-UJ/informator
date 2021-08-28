@@ -8,7 +8,7 @@
         <nuxt-content :document='article' />
         <table-of-content :toc='article.toc' />
         <div class='text-caption text-right mt-4'>
-          {{ $t('pageLastUpdated') }}: {{ (new Date(article.updatedAt)).toISOString().split('T')[0] }}
+          {{ $t('pageLastUpdated') }}: {{ (new Date(modificationDate)).toISOString().split('T')[0] }}
         </div>
       </article>
     </div>
@@ -26,21 +26,26 @@
 
 <script>
 
+import modificationDates from '~/content/modificationDates'
 
 export default {
   name: 'ContentView',
   async asyncData({ $content, app, params, error }) {
     const path = `${app.i18n.locale}/${params.pathMatch}/index`
+    const pathWithExt = `${app.i18n.locale}/${params.pathMatch}/index.md`
     try {
       const article = await $content(path).where({ stub: { $ne: true } }).fetch()
       if (!article) {
         return error({ statusCode: 404, message: 'Article not found' })
       }
 
+      const modificationDate = (modificationDates[pathWithExt] !== undefined)
+        ? modificationDates[pathWithExt] : article.updatedAt
+
       return {
-        article
+        article, modificationDate
       }
-    } catch(ex) {
+    } catch (ex) {
       return error({ statusCode: 404, message: 'Article not found' })
     }
   },
