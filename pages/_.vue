@@ -42,6 +42,8 @@ export default {
       const modificationDate = (modificationDates[pathWithExt] !== undefined)
         ? modificationDates[pathWithExt] : article.updatedAt
 
+      console.log(pathWithExt, modificationDates[pathWithExt])
+
       return {
         article, modificationDate
       }
