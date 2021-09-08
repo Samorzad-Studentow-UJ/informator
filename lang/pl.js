@@ -13,4 +13,5 @@ export default {
   studentguide: 'Informator Studenta',
   notFound: 'Strona nie istnieje',
   error: 'Wystąpił błąd',
+  proposeChanges: 'Zaproponuj zmiany'
 }

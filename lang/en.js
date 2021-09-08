@@ -13,4 +13,5 @@ export default {
   studentguide: 'Student Guide',
   notFound: 'Page not found',
   error: 'An error occured',
+  proposeChanges: 'Propose changes'
 }

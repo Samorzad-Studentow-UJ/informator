@@ -4,7 +4,7 @@ backend:
   repo: Samorzad-Studentow-UJ/informator
 media_folder: 'static/images/uploads'
 public_folder: '/images/uploads'
-site_url: https://ssuj.info/
+site_url: https://info.samorzad.uj.edu.pl
 slug:
   encoding: "ascii"
   clean_accents: true
@@ -74,10 +74,19 @@ collections:
         name: 'icon'
         widget: 'string'
         required: false
+      - label: 'Order in menu'
+        name: 'order'
+        widget: 'number'
+        value_type: 'int'
+        required: false
       - label: 'Is category only?'
         name: 'stub'
         widget: 'boolean'
         default: false
+      - label: 'PDF url'
+        name: 'pdf'
+        widget: 'string'
+        required: false
       - label: 'Description'
         name: 'description'
         widget: 'string'

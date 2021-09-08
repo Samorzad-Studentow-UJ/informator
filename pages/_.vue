@@ -7,8 +7,18 @@
         <h1 class='text-h2 mb-5'>{{ article.title }}</h1>
         <nuxt-content :document='article' />
         <table-of-content :toc='article.toc' />
-        <div class='text-caption text-right mt-4'>
-          {{ $t('pageLastUpdated') }}: {{ (new Date(modificationDate)).toISOString().split('T')[0] }}
+        <div class='d-flex flex-row justify-space-between mt-7'>
+          <div class='text-caption align-self-center'>
+            {{ $t('pageLastUpdated') }}: {{ (new Date(modificationDate)).toISOString().split('T')[0] }}
+          </div>
+          <v-btn outlined color='primary' :href='editLink' small>
+            <v-icon
+              left
+            >
+              mdi-pencil
+            </v-icon>
+            {{ $t('proposeChanges') }}
+          </v-btn>
         </div>
       </article>
     </div>
@@ -33,6 +43,7 @@ export default {
   async asyncData({ $content, app, params, error }) {
     const path = `${app.i18n.locale}/${params.pathMatch}/index`
     const pathWithExt = `${app.i18n.locale}/${params.pathMatch}/index.md`
+    const pathInCollection = `${params.pathMatch}/index`
     try {
       const article = await $content(path).where({ stub: { $ne: true } }).fetch()
       if (!article) {
@@ -42,10 +53,8 @@ export default {
       const modificationDate = (modificationDates[pathWithExt] !== undefined)
         ? modificationDates[pathWithExt] : article.updatedAt
 
-      console.log(pathWithExt, modificationDates[pathWithExt])
-
       return {
-        article, modificationDate
+        article, modificationDate, pathInCollection
       }
     } catch (ex) {
       return error({ statusCode: 404, message: 'Article not found' })
@@ -62,6 +71,11 @@ export default {
           content: this.article.description
         }
       ]
+    }
+  },
+  computed: {
+    editLink() {
+      return `/edit/#/collections/pages_${this.$i18n.locale}/entries/${this.pathInCollection}`
     }
   }
 }
