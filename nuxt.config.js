@@ -221,7 +221,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://ssuj.info/' // todo: update before deploy.
+    hostname: 'https://info.samorzad.uj.edu.pl/'
   },
 
   loading: {
