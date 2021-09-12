@@ -169,6 +169,10 @@ export default {
   },
 
   generate: {
+    exclude: [
+      /^\/edit/,
+      /^\/admin/
+    ],
     routes() {
       const { $content } = require('@nuxt/content')
       return $content({ deep: true })
