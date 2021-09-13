@@ -1,9 +1,9 @@
 ---
 title: Kolegium Rektorskie
-description: W skład Kolegium Rektorskiego wchodzi Rektor, Prorektorzy, Kanclerz oraz Kwestor UJ. 
 order: 20
+description: W skład Kolegium Rektorskiego wchodzi Rektor, Prorektorzy, Kanclerz
+  oraz Kwestor UJ.
 ---
-
 ## Prorektor ds. Collegium Medicum
 
 ![Prorektor ds. Collegium Medicum](/images/uploads/prorektor_medicum.jpg "prof. dr hab. med. Tomasz Grodzicki")
@@ -69,6 +69,7 @@ Do jego kompetencji należą sprawy studiów, studentów, doktorantów i absolwe
 * innych niewymienionych powyżej form kształcenia prowadzonych w Uczelni;
 * programów studiów i programów kształcenia;
 * spraw bytowych studentów i doktorantów, w szczególności:
+
   * dysponowania środkami funduszu stypendialnego,
   * dokonywania podziału środków przeznaczonych na poszczególne świadczenia dla studentów i doktorantów;
 * ubezpieczeń zdrowotnych studentów i doktorantów powyżej 26. roku życia;
@@ -175,3 +176,7 @@ kanclerza należą sprawy:
 
 Kwestor jest głównym księgowym Uniwersytetu i podlega bezpośrednio Rektorowi. Do zadań kwestora należy prowadzenie
 rachunkowości na Uniwersytecie.
+
+
+
+test
