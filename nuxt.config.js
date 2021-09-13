@@ -200,11 +200,7 @@ export default {
     ],
     langDir: 'lang/',
     defaultLocale: 'pl',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      onlyOnRoot: true
-    },
+    detectBrowserLanguage: false,
     vueI18nLoader: true,
     strategy: 'prefix'
   },
