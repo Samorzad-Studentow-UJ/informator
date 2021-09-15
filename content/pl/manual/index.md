@@ -7,7 +7,9 @@ description: Jak edytować Informator Studenta UJ?
 ---
 Informator Studenta UJ pozwala każdemu wprowadzać zmiany, które po zatwierdzeniu przez moderatora natychmiast zostaną opublikowane w aplikacji. Aby tego dokonać wystarczy tylko posiadać konto w serwisie GitHub i kilka chwil wolnego czasu 😉
 
-## Krok 0: Załóż konto na GitHub jeśli jeszcze go nie posiadasz
+## Jak edytować treść informatora?
+
+### Krok 0: Załóż konto na GitHub jeśli jeszcze go nie posiadasz
 
 GitHub to platforma ułatwiająca proces budowania aplikacji. Informator Studenta UJ wykorzystuje ją do wersjonowania zmian, współpracy nad zarówno treścią Informatora jak i kodem, budowania aplikacji a nawet samego hostingu. Jako ciekawostkę dodamy, że ponieważ Informator jest udostępniony na otwartej licencji GitHub nie pobiera od nas opłat za korzystanie z ich usług.
 
@@ -21,7 +23,7 @@ Po założeniu i aktywowaniu konta możesz zamknąć kartę przeglądarki - nie 
 
 <alert type='info' outlined border='left'>GitHub jest usługą skierowaną dla twórców aplikacji i pod tym względem może wyglądać nieco nieprzyjaźnie dla osób, które nigdy ich nie tworzyły. Nie przejmuj się tym - potrzebujesz jedynie założyć tam konto aby móc zalogować się do panelu edycji Informatora (który wykona za Ciebie resztę pracy).</alert>
 
-## Krok 1: Zaloguj się do panelu edycji Informatora
+### Krok 1: Zaloguj się do panelu edycji Informatora
 
 Przejdź do <https://info.samorzad.uj.edu.pl/edit/> i zaloguj się swoim kontem GitHub. Po zalogowaniu autoryzuj panel edycji Informatora ze swoim kontem. Pozwoli to panelowi edycji zapisywać wprowadzane przez Ciebie zmiany na GitHub oraz informować w Twoim imieniu moderatorów Informatora o oczekujących na nich zmianach. Ostatnim krokiem potrzebnym do rozpoczęcia edycji jest utworzenia tak zwanego "forka" - kopi roboczej całego repozytorium Informatora, na której możesz swobodnie wprowadzać zmiany - wystarczy zezwolić na to panelowi edycji a on zrobi to za Ciebie.
 
@@ -31,7 +33,7 @@ Przejdź do <https://info.samorzad.uj.edu.pl/edit/> i zaloguj się swoim kontem 
 
 ![Ekran tworzenia forka](/images/uploads/netlify_fork.png "Po zalogowaniu utwórz fork - kopię roboczą Informatora na której możesz swobodnie dokonywać zmian.")
 
-## Krok 2: Wprowadź zmiany
+### Krok 2: Wprowadź zmiany
 
 Po zalogowaniu i utworzeniu forka powita Cię główne menu panelu edycji. Od teraz możesz już edytować Informator. Jeśli w przyszłości będziesz chcieć powrócić do tego miejsca wejdź jak poprzednio na <https://info.samorzad.uj.edu.pl/edit/>. 
 
@@ -66,7 +68,7 @@ Po zakończeniu edycji lub gdy tylko chcemy zapisać wersję roboczą klikamy pr
 
 ![Ekran po edycji](/images/uploads/netlify_save.png "Po wprowadzeniu zmian zapisz artykuł. Możesz to robić za każdym razem gdy na przykład chcesz powrócić do edycji później. Zmiany są zapisane tylko dla Twojej kopii roboczej.")
 
-## Krok 3: Wyślij zmiany do zatwierdzenia przez moderatora
+### Krok 3: Wyślij zmiany do zatwierdzenia przez moderatora
 
 Gdy zakończysz pracę nad zmianami i chcesz aby zostały opublikowane możesz od razu wysłać je do recenzji moderatora. Wystarczy że (jeśli nie stało się to wcześniej) zapiszesz zmiany a potem zmienisz ich status z "Draft" na "In review". Nie musisz robić nic więcej - moderatorzy zostaną powiadomieni automatycznie przez GitHub.
 
@@ -84,6 +86,110 @@ Po przesłaniu zmian może zdarzyć się jedno z poniższych:
 * moderator poprosi Cię o wprowadzenie zmian - moderator może skontaktować się z Tobą przez GitHub, dostaniesz powiadomienie przez email. Razem z moderatorem ustalicie co konkretnie wymaga zmiany (np. możesz otrzymać prośbę o podanie źródeł informacji na stronie).
 * moderator odrzuci Twoją zmianę w całości - powód odrzucenia otrzymasz w wiadomości z GitHub (z wyjątkiem sytuacji gdy Twoja zmiana została uznana za spam). Ta opcja zdarza się niezwykle rzadko, podajemy ją tylko dla kompletności instrukcji obsługi 😉.
 
-To już koniec instrukcji obsługi wprowadzania zmian w treści Informatora Studenta UJ. Czekamy na Twoje propozycje zmian [😀](https://emojipedia.org/grinning-face/)
+To już koniec instrukcji obsługi wprowadzania zmian w treści Informatora Studenta UJ. Czekamy na Twoje propozycje zmian, w razie problemów nie czekaj tylko skontaktuj się z nami przez Facebooka [😀](https://emojipedia.org/grinning-face/).
 
-PS Tak, tą stronę też możesz edytować [😆](https://emojipedia.org/grinning-squinting-face/)
+PS Tak, tą stronę też możesz edytować [😆](https://emojipedia.org/grinning-squinting-face/).
+
+## Jak edytować kod informatora?
+
+Informator Studenta UJ jest w całości Open Source, z chęcią przyjmiemy każdą pomoc w uczynieniu aplikacji lepszą [😀](https://emojipedia.org/grinning-face/). Kod aplikacji (oraz treść) znajduje się tu <https://github.com/Samorzad-Studentow-UJ/informator>, akceptujemy Pull requesty.
+
+Od strony technicznej Informator bazuje na NuxtJS (wraz z pluginami NuxtJS Content i NuxtJS PWA). Frontend bazuje na Vuetify, zaś do budowania aplikacji wykorzystujemy GitHub Actions. Jeśli powyższe brzmi interesująco zapraszamy do współpracy 😉.
+
+## Przykłady tego, co można wstawić w Informator
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+### H3 Heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+![Hovercat to base requesting purrmision to land](/images/uploads/hover_cat_some_lols_and_some_cats_587a94_3315910.jpg "Hover cat")
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+<alert type="warning" outlined border="left">Test 1234</alert>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+#### h4 Heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+##### h5 Heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+###### h6 Heading
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+### Horizontal Rules
+
+- - -
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+- - -
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada quam risus, in convallis ante laoreet et. In blandit porttitor consequat. Ut in purus in arcu faucibus lobortis. Nam eu nulla lacus. Vestibulum tincidunt ex sit amet maximus vulputate. Nunc eget maximus ipsum. Vivamus sapien nisl, fermentum vel enim et, tincidunt facilisis nulla. Nam imperdiet sed lectus eget semper. Fusce eu quam est. Aenean vestibulum diam eget urna egestas rhoncus. Nunc mattis neque lectus, ac commodo lacus dapibus in. Quisque at viverra tortor. Fusce congue pretium orci, ac faucibus ipsum sagittis et. Integer aliquet urna ac rutrum lobortis. Pellentesque aliquet placerat tincidunt.
+
+- - -
+
+### Emphasis
+
+**This is bold text**
+
+**This is bold text**
+
+*This is italic text*
+
+*This is italic text*
+
+~~Strikethrough~~
+
+### Blockquotes
+
+> Blockquotes can also be nested...
+>
+> > ...by using additional greater-than signs right next to each other...
+> >
+> > > ...or with spaces between arrows.
+
+### Lists
+
+Unordered
+
+* Create a list by starting a line with `+`, `-`, or `*`
+* Sub-lists are made by indenting 2 spaces:
+
+  * Marker character change forces new list start:
+
+    * Ac tristique libero volutpat at
+    * Facilisis in pretium nisl aliquet
+    * Nulla volutpat aliquam velit
+* Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+4. You can use sequential numbers...
+5. ...or keep all the numbers as `1.`
+
+Start numbering with offset:
+
+57. foo
+58. bar
+
+### Alerts
+
+<alert type="error" outlined border="left">Lorem ipsum dolor sit amet!</alert>
+
+### Tables
+
+| Tables   |      Are      |  Cool |
+|----------|---------------|-------|
+| col 1    | test          | $1600 |
+| col 2    | test          |   $12 |
+| col 3    | test          |    $1 |
