@@ -19,7 +19,7 @@ Aby założyć konto przejdź do <https://github.com/> i postępuj zgodnie z ins
 
 Po założeniu i aktywowaniu konta możesz zamknąć kartę przeglądarki - nie będziesz więcej potrzebować bezpośrednio używać GitHub - następne kroki wykonasz już w panelu edycji Informatora logując się przez GitHub.
 
-<alert type='info' outlined border='left'>GitHub jest usługą skierowaną dla twórców aplikacji i pod tym względem może wyglądać nieco nieprzyjaźnie dla osób, które nigdy ich nie tworzyły. Nie przejmuj się tym - potrzebujesz jedynie założyć tam konto aby móc zalogować się do panelu edycji Informatora (który wykona za Ciebie resztę pracy).<alert>
+<alert type='info' outlined border='left'>GitHub jest usługą skierowaną dla twórców aplikacji i pod tym względem może wyglądać nieco nieprzyjaźnie dla osób, które nigdy ich nie tworzyły. Nie przejmuj się tym - potrzebujesz jedynie założyć tam konto aby móc zalogować się do panelu edycji Informatora (który wykona za Ciebie resztę pracy).</alert>
 
 ## Krok 1: Zaloguj się do panelu edycji Informatora
 
