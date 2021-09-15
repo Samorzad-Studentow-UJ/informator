@@ -123,12 +123,12 @@ export default {
         'rehype-add-classes'
       ],
       rehypeAddClasses: {
-        h2: 'text-h3 mb-3 mt-7',
-        h3: 'text-h4 mb-3 mt-6',
-        h4: 'text-h5 mb-2 mt-5',
-        h5: 'text-h6 mb-2 mt-4',
-        h6: 'text-subtitle-1 font-weight-medium mb-2 mt-3',
-        p: 'text-body-1',
+        h2: 'text-h3 mb-4 mt-8',
+        h3: 'text-h4 mb-4 mt-7',
+        h4: 'text-h5 mb-4 mt-6',
+        h5: 'text-h6 mb-4 mt-5',
+        h6: 'text-subtitle-1 font-weight-medium mb-4 mt-5',
+        p: 'text-body-1 my-4',
         blockquote: 'blockquote'
       },
       remarkAutolinkHeadings: {

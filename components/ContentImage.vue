@@ -1,12 +1,12 @@
 <template>
-  <figure class='d-flex flex-column justify-space-between align-center ma-3'>
+  <figure class='d-flex flex-column justify-space-between align-center mx-3 my-8'>
     <v-img
       :src='img'
       :alt='alt'
       :title='title'
       contain
       max-height='400' />
-    <figcaption class='text-subtitle-2 mt-2'>{{ title }}</figcaption>
+    <figcaption class='text-subtitle-2 mt-3'>{{ title }}</figcaption>
   </figure>
 </template>
 
