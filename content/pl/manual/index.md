@@ -58,7 +58,7 @@ Po lewej stronie ekranu znajduje się formularz pozwalający edytować stronę. 
 
 Zaraz poniżej formularza znajduje się pole BODY - tu wreszcie możemy wpisać/edytować treść artykułu. Dostępny jest edytor typu "Rich Text" pozwalający w wygodny sposób edytować artykuły oraz edytor "Markdown" jeśli chcemy wprowadzić coś bardziej zaawansowanego edytując kod strony. W praktycznie każdym przypadku wystarczy nam ten pierwszy - pozwala on na wszystkie podstawowe formatowania tekstu, tworzenie list, oznaczania cytatów, wstawianie obrazków czy ramek (alertów). Na dole artykułu znajdują się przykłady tego, co można osiągnąć korzystając z edytora.
 
-Po prawej stronie ekranu znajduje się szybki podgląd artykułu. Nie jest on dokładnym odwzorowaniem tego, jak wpis będzie wyglądać finalnie w informatorze (w szczególności obrazki czy ramki nie wyświetlają się w ten sam sposób), jednak pozwala na szybkie znalezienie najczęstszych błędów jak źle podzielone akapity itp.
+Po prawej stronie ekranu znajduje się szybki podgląd artykułu. Nie jest on dokładnym odwzorowaniem tego, jak wpis będzie wyglądać finalnie w informatorze (w szczególności obrazki czy ramki wyświetlają się źle w podglądzie), jednak pozwala na szybkie znalezienie najczęstszych błędów jak źle podzielone akapity itp.
 
 ![Ekran edycji](/images/uploads/netlify_edit.png "Wprowadź zmiany w artykule.")
 
