@@ -7,11 +7,11 @@
         <h1 class='text-h2 mb-5'>{{ article.title }}</h1>
         <nuxt-content :document='article' />
         <table-of-content :toc='article.toc' />
-        <div class='d-flex flex-row justify-space-between mt-7'>
-          <div class='text-caption align-self-center'>
+        <div class='d-flex flex-column flex-md-row justify-space-between mt-3'>
+          <div class='text-caption align-self-center mt-2'>
             {{ $t('pageLastUpdated') }}: {{ (new Date(modificationDate)).toISOString().split('T')[0] }}
           </div>
-          <v-btn outlined color='primary' :href='editLink' small>
+          <v-btn outlined color='primary' class='mt-2' :href='editLink' small>
             <v-icon
               left
             >
