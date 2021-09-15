@@ -47,7 +47,7 @@ Alternatywnie zamiast szukać strony w menu możesz również kliknąć przycisk
 
 Po wybraniu podstrony lub utworzeniu nowej ukaże się ekran wyglądający podobnie do tego na zdjęciu poniżej.
 
-Po prawej lewej ekranu znajduje się formularz pozwalający edytować stronę. Zawiera on kilka pól metadanych oraz edytor tekstu, w którym wpisujemy treść artykułu. Zacznijmy od metadanych:
+Po prawej stronie ekranu znajduje się formularz pozwalający edytować stronę. Zawiera on kilka pól metadanych oraz edytor tekstu, w którym wpisujemy treść artykułu. Zacznijmy od metadanych:
 
 * PATH - pole określa pod jaką ścieżką znajduję się podstrona. Inaczej jest to adres pod strony po https://info.samorzad.uj.edu.pl/ oraz kodzie wersji językowej. Na przykład jeśli pole zawiera wartość "uczelnia/biblioteka" i strona jest w języku polskim to będzie ona dostępna pod adresem https://info.samorzad.uj.edu.pl/pl/uczelnia/biblioteka/. W samym informatorze w menu podstron będzie zaś ona dostępna pod zakładkę "Uczelnia" jako "Biblioteka".
 * TITLE - nic innego jak tytuł strony. Jest widoczny w nagłówku strony oraz w menu podstron. Powinien być na tyle krótki aby zmieścił się w menu podstron (w przeciwnym przypadku będzie wyświetlać się w menu przycięty). W ogólności 20-kilka znaków powinno zmieścić się bez problemu.
