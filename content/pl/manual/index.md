@@ -45,7 +45,7 @@ Alternatywnie zamiast szukać strony w menu możesz również kliknąć przycisk
 
 Po wybraniu podstrony lub utworzeniu nowej ukaże się ekran wyglądający podobnie do tego na zdjęciu poniżej.
 
-Po prawej stronie ekranu znajduje się formularz pozwalający edytować stronę. Zawiera on kilka pól metadanych oraz edytor tekstu, w którym wpisujemy treść artykułu. Zacznijmy od metadanych:
+Po prawej lewej ekranu znajduje się formularz pozwalający edytować stronę. Zawiera on kilka pól metadanych oraz edytor tekstu, w którym wpisujemy treść artykułu. Zacznijmy od metadanych:
 
 * PATH - pole określa pod jaką ścieżką znajduję się podstrona. Inaczej jest to adres pod strony po https://info.samorzad.uj.edu.pl/ oraz kodzie wersji językowej. Na przykład jeśli pole zawiera wartość "uczelnia/biblioteka" i strona jest w języku polskim to będzie ona dostępna pod adresem https://info.samorzad.uj.edu.pl/pl/uczelnia/biblioteka/. W samym informatorze w menu podstron będzie zaś ona dostępna pod zakładkę "Uczelnia" jako "Biblioteka".
 * TITLE - nic innego jak tytuł strony. Jest widoczny w nagłówku strony oraz w menu podstron. Powinien być na tyle krótki aby zmieścił się w menu podstron (w przeciwnym przypadku będzie wyświetlać się w menu przycięty). W ogólności 20-kilka znaków powinno zmieścić się bez problemu.
@@ -56,14 +56,34 @@ Po prawej stronie ekranu znajduje się formularz pozwalający edytować stronę.
 
 Zaraz poniżej formularza znajduje się pole BODY - tu wreszcie możemy wpisać/edytować treść artykułu. Dostępny jest edytor typu "Rich Text" pozwalający w wygodny sposób edytować artykuły oraz edytor "Markdown" jeśli chcemy wprowadzić coś bardziej zaawansowanego edytując kod strony. W praktycznie każdym przypadku wystarczy nam ten pierwszy - pozwala on na wszystkie podstawowe formatowania tekstu, tworzenie list, oznaczania cytatów, wstawianie obrazków czy ramek (alertów). Na dole artykułu znajdują się przykłady tego, co można osiągnąć korzystając z edytora.
 
-
+Po prawej stronie ekranu znajduje się szybki podgląd artykułu. Nie jest on dokładnym odwzorowaniem tego, jak wpis będzie wyglądać finalnie w informatorze (w szczególności obrazki czy ramki nie wyświetlają się w ten sam sposób), jednak pozwala na szybkie znalezienie najczęstszych błędów jak źle podzielone akapity itp.
 
 ![Ekran edycji](/images/uploads/netlify_edit.png "Wprowadź zmiany w artykule.")
+
+Po zakończeniu edycji lub gdy tylko chcemy zapisać wersję roboczą klikamy przycisk "Save".
+
+<alert type='warning' outlined border='left'>Uwaga! Wszystkie tworzone zmiany, w tym kopie robocze są zapisywane w publicznie dostępnym repozytorium na GitHub i przypisane do Waszego konta. Jakkolwiek nie są one publikowane w widoczny sposób i ich znalezienie wymaga odrobiny wysiłku nie zaleca się zapisywania treści, które naruszają czyjąś prywatność lub w inny sposób nie chcielibyście aby kiedyś ujrzały one światło dzienne.</alert>
 
 ![Ekran po edycji](/images/uploads/netlify_save.png "Po wprowadzeniu zmian zapisz artykuł. Możesz to robić za każdym razem gdy na przykład chcesz powrócić do edycji później. Zmiany są zapisane tylko dla Twojej kopii roboczej.")
 
 ## Krok 3: Wyślij zmiany do zatwierdzenia przez moderatora
 
+Gdy zakończysz pracę nad zmianami i chcesz aby zostały opublikowane możesz od razu wysłać je do recenzji moderatora. Wystarczy że (jeśli nie stało się to wcześniej) zapiszesz zmiany a potem zmienisz ich status z "Draft" na "In review". Nie musisz robić nic więcej - moderatorzy zostaną powiadomieni automatycznie przez GitHub.
+
+<alert type='error' outlined border='left'>Uwaga: celem informatora jest stworzenie miejsca w którym każdy student znajdzie najważniejsze informacje. Kategorycznie zabrania się używania go do promocji przedsięwzięć komercyjnych, nie związanych z UJ czy nie związanych z tematyką Informatora. Zastrzegamy sobie prawo do odrzucania zmian niezgodnych z powyższym oraz blokowania możliwości proponowania zmian kontom naruszającym reguły w sposób rażący (w szczególności poprzez tak zwany spam).</alert>
+
 ![Ekran wysyłania zmian do recenzji](/images/uploads/netlify_review.png "Kiedy skończysz swoją pracę i zapiszesz zmiany wyślij je do zatwierdzenia zmieniając ich status z draft na in review. Zespół informatora zostanie automatycznie poinformowany o oczekujących na zatwierdzenie zmianach.")
 
+Status swoich zmian możesz śledzić w zakładce "Workflow" lub na GitHub tutaj: <https://github.com/Samorzad-Studentow-UJ/informator/pulls>.
+
 ![Ekran workflow](/images/uploads/netlify_flow.png "W zakładce Workflow możesz śledzić status zaproponowanych przez siebie zmian. Możesz je także edytować dalej lub wycofać.")
+
+Po przesłaniu zmian może zdarzyć się jedno z poniższych:
+
+* moderator zaakceptuje Twoje zmiany - dostaniesz maila od GitHub, że Twoje zmiany zostały przyłączone (ang. merged) do głównego repozytorium Informatora. Od momentu akceptacji proces publikacji jest automatyczny i zajmuje kilka minut (tyle zajmuje wydanie nowej wersji aplikacji). 
+* moderator poprosi Cię o wprowadzenie zmian - moderator może skontaktować się z Tobą przez GitHub, dostaniesz powiadomienie przez email. Razem z moderatorem ustalicie co konkretnie wymaga zmiany (np. możesz otrzymać prośbę o podanie źródeł informacji na stronie).
+* moderator odrzuci Twoją zmianę w całości - powód odrzucenia otrzymasz w wiadomości z GitHub (z wyjątkiem sytuacji gdy Twoja zmiana została uznana za spam). Ta opcja zdarza się niezwykle rzadko, podajemy ją tylko dla kompletności instrukcji obsługi 😉.
+
+To już koniec instrukcji obsługi wprowadzania zmian w treści Informatora Studenta UJ. Czekamy na Twoje propozycje zmian [😀](https://emojipedia.org/grinning-face/)
+
+PS Tak, tą stronę też możesz edytować [😆](https://emojipedia.org/grinning-squinting-face/)
