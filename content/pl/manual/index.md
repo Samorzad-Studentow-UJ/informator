@@ -86,13 +86,13 @@ Po przesłaniu zmian może zdarzyć się jedno z poniższych:
 * moderator poprosi Cię o wprowadzenie zmian - moderator może skontaktować się z Tobą przez GitHub, dostaniesz powiadomienie przez email. Razem z moderatorem ustalicie co konkretnie wymaga zmiany (np. możesz otrzymać prośbę o podanie źródeł informacji na stronie).
 * moderator odrzuci Twoją zmianę w całości - powód odrzucenia otrzymasz w wiadomości z GitHub (z wyjątkiem sytuacji gdy Twoja zmiana została uznana za spam). Ta opcja zdarza się niezwykle rzadko, podajemy ją tylko dla kompletności instrukcji obsługi 😉.
 
-To już koniec instrukcji obsługi wprowadzania zmian w treści Informatora Studenta UJ. Czekamy na Twoje propozycje zmian, w razie problemów nie czekaj tylko skontaktuj się z nami przez Facebooka [😀](https://emojipedia.org/grinning-face/).
+To już koniec instrukcji obsługi wprowadzania zmian w treści Informatora Studenta UJ. Czekamy na Twoje propozycje zmian, w razie problemów nie czekaj tylko skontaktuj się z nami przez Facebooka 😀.
 
-PS Tak, tą stronę też możesz edytować [😆](https://emojipedia.org/grinning-squinting-face/).
+PS Tak, tą stronę też możesz edytować 😆.
 
 ## Jak edytować kod informatora?
 
-Informator Studenta UJ jest w całości Open Source, z chęcią przyjmiemy każdą pomoc w uczynieniu aplikacji lepszą [😀](https://emojipedia.org/grinning-face/). Kod aplikacji (oraz treść) znajduje się tu <https://github.com/Samorzad-Studentow-UJ/informator>, akceptujemy Pull requesty.
+Informator Studenta UJ jest w całości Open Source, z chęcią przyjmiemy każdą pomoc w uczynieniu aplikacji lepszą 😀. Kod aplikacji (oraz treść) znajduje się tu <https://github.com/Samorzad-Studentow-UJ/informator>, akceptujemy Pull requesty.
 
 Od strony technicznej Informator bazuje na NuxtJS (wraz z pluginami NuxtJS Content i NuxtJS PWA). Frontend bazuje na Vuetify, zaś do budowania aplikacji wykorzystujemy GitHub Actions. Jeśli powyższe brzmi interesująco zapraszamy do współpracy 😉.
 
