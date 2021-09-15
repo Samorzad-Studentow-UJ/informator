@@ -23,7 +23,7 @@ Po założeniu i aktywowaniu konta możesz zamknąć kartę przeglądarki - nie 
 
 ## Krok 1: Zaloguj się do panelu edycji Informatora
 
-Przejdź do <https://infossuj.pardyl.com/edit/> i zaloguj się swoim kontem GitHub. Po zalogowaniu autoryzuj panel edycji Informatora ze swoim kontem. Pozwoli to panelowi edycji zapisywać wprowadzane przez Ciebie zmiany na GitHub oraz informować w Twoim imieniu moderatorów Informatora o oczekujących na nich zmianach. Ostatnim krokiem potrzebnym do rozpoczęcia edycji jest utworzenia tak zwanego "forka" - kopi roboczej całego repozytorium Informatora, na której możesz swobodnie wprowadzać zmiany - wystarczy zezwolić na to panelowi edycji a on zrobi to za Ciebie.
+Przejdź do <https://info.samorzad.uj.edu.pl/edit/> i zaloguj się swoim kontem GitHub. Po zalogowaniu autoryzuj panel edycji Informatora ze swoim kontem. Pozwoli to panelowi edycji zapisywać wprowadzane przez Ciebie zmiany na GitHub oraz informować w Twoim imieniu moderatorów Informatora o oczekujących na nich zmianach. Ostatnim krokiem potrzebnym do rozpoczęcia edycji jest utworzenia tak zwanego "forka" - kopi roboczej całego repozytorium Informatora, na której możesz swobodnie wprowadzać zmiany - wystarczy zezwolić na to panelowi edycji a on zrobi to za Ciebie.
 
 ![Ekran logowania do panelu edycyjnego Informatora](/images/uploads/login_with_github.png "Zaloguj się do panelu edycyjnego Informatora poprzez GitHub.")
 
@@ -33,14 +33,20 @@ Przejdź do <https://infossuj.pardyl.com/edit/> i zaloguj się swoim kontem GitH
 
 ## Krok 2: Wprowadź zmiany
 
+Po zalogowaniu i utworzeniu forka powita Cię główne menu panelu edycji. Od teraz możesz już edytować Informator. Jeśli w przyszłości będziesz chcieć powrócić do tego miejsca wejdź jak poprzednio na <https://info.samorzad.uj.edu.pl/edit/>. 
+
+Wybierz podstronę którą chcesz edytować z menu. Po lewej możesz wybrać kategorię/folder w którym mieści się podstrona, na środku ekranu widzisz zawartość wybranego folderu. Zauważ, że same kategorie również można edytować, więcej o tym później. Kliknij na tytuł strony, którą chcesz edytować. Możesz też stworzyć nową wybierając przycisk "New Page".
+
+Alternatywnie zamiast szukać strony w menu możesz również kliknąć przycisk "Zaproponuj zmiany" na dole dowolnej podstrony informatora - zostaniesz przekierowany bezpośrednio do ekranu edycji tejże strony.
+
 ![Ekran wyboru strony do edycji](/images/uploads/netlify_menu.png "Wybierz podstronę, którą chcesz edytować. Zauważ, że kategorie w menu informatora również są podstronami.")
 
 ![Ekran edycji](/images/uploads/netlify_edit.png "Wprowadź zmiany w artykule.")
 
 ![Ekran po edycji](/images/uploads/netlify_save.png "Po wprowadzeniu zmian zapisz artykuł. Możesz to robić za każdym razem gdy na przykład chcesz powrócić do edycji później. Zmiany są zapisane tylko dla Twojej kopii roboczej.")
 
-Krok 3: Wyślij zmiany do zatwierdzenia przez moderatora
+## Krok 3: Wyślij zmiany do zatwierdzenia przez moderatora
 
-![Ekran wysyłania zmian do recenzji](/images/uploads/netlify_review.png "Kiedy skończysz swoją pracę i zapiszesz zmiany wyślij je do zatwierdzenia zmieniając ich status z \\"draft\\" na \\"in review\\". Zespół informatora zostanie automatycznie poinformowany o oczekujących na zatwierdzenie zmianach.")
+![Ekran wysyłania zmian do recenzji](/images/uploads/netlify_review.png "Kiedy skończysz swoją pracę i zapiszesz zmiany wyślij je do zatwierdzenia zmieniając ich status z \\\\"draft\\\\" na \\\\"in review\\\\". Zespół informatora zostanie automatycznie poinformowany o oczekujących na zatwierdzenie zmianach.")
 
-![Ekran "workflow"](/images/uploads/netlify_flow.png "W zakładce \\"Workflow\\" możesz śledzić status zaproponowanych przez siebie zmian. Możesz je także edytować dalej lub wycofać.")
+![Ekran "workflow"](/images/uploads/netlify_flow.png "W zakładce \\\\"Workflow\\\\" możesz śledzić status zaproponowanych przez siebie zmian. Możesz je także edytować dalej lub wycofać.")
