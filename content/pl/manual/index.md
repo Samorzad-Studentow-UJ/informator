@@ -47,6 +47,6 @@ Alternatywnie zamiast szukać strony w menu możesz również kliknąć przycisk
 
 ## Krok 3: Wyślij zmiany do zatwierdzenia przez moderatora
 
-![Ekran wysyłania zmian do recenzji](/images/uploads/netlify_review.png "Kiedy skończysz swoją pracę i zapiszesz zmiany wyślij je do zatwierdzenia zmieniając ich status z \\\\"draft\\\\" na \\\\"in review\\\\". Zespół informatora zostanie automatycznie poinformowany o oczekujących na zatwierdzenie zmianach.")
+![Ekran wysyłania zmian do recenzji](/images/uploads/netlify_review.png "Kiedy skończysz swoją pracę i zapiszesz zmiany wyślij je do zatwierdzenia zmieniając ich status z draft na in review. Zespół informatora zostanie automatycznie poinformowany o oczekujących na zatwierdzenie zmianach.")
 
-![Ekran "workflow"](/images/uploads/netlify_flow.png "W zakładce \\\\"Workflow\\\\" możesz śledzić status zaproponowanych przez siebie zmian. Możesz je także edytować dalej lub wycofać.")
+![Ekran workflow](/images/uploads/netlify_flow.png "W zakładce Workflow możesz śledzić status zaproponowanych przez siebie zmian. Możesz je także edytować dalej lub wycofać.")
