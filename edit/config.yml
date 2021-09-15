@@ -7,6 +7,7 @@ media_folder: 'static/images/uploads'
 public_folder: '/images/uploads'
 publish_mode: editorial_workflow
 site_url: https://info.samorzad.uj.edu.pl
+show_preview_links: false
 slug:
   encoding: "ascii"
   clean_accents: true
