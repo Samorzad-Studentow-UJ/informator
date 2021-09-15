@@ -19,7 +19,7 @@ Aby założyć konto przejdź do <https://github.com/> i postępuj zgodnie z ins
 
 Po założeniu i aktywowaniu konta możesz zamknąć kartę przeglądarki - nie będziesz więcej potrzebować bezpośrednio używać GitHub - następne kroki wykonasz już w panelu edycji Informatora logując się przez GitHub.
 
-<v-alert type='info' outlined border='left'>GitHub jest usługą skierowaną dla twórców aplikacji i pod tym względem może wyglądać nieco nieprzyjaźnie dla osób, które nigdy ich nie tworzyły. Nie przejmuj się tym - potrzebujesz jedynie założyć tam konto aby móc zalogować się do panelu edycji Informatora (który wykona za Ciebie resztę pracy).</v-alert>
+<alert type='info' outlined border='left'>GitHub jest usługą skierowaną dla twórców aplikacji i pod tym względem może wyglądać nieco nieprzyjaźnie dla osób, które nigdy ich nie tworzyły. Nie przejmuj się tym - potrzebujesz jedynie założyć tam konto aby móc zalogować się do panelu edycji Informatora (który wykona za Ciebie resztę pracy).<alert>
 
 ## Krok 1: Zaloguj się do panelu edycji Informatora
 
@@ -29,7 +29,7 @@ Przejdź do <https://infossuj.pardyl.com/edit/> i zaloguj się swoim kontem GitH
 
 ![Ekran autoryzacji Informatora z GitHub](/images/uploads/authorize_netlify.png "Zezwól Informatorowi na dostęp do publicznych repozytoriów GitHub dla Twojego konta.")
 
-![Ekran tworzenia forka](/images/uploads/netlify_fork.png "Po zalogowaniu utwórz \\"fork\\" - kopię roboczą Informatora na której możesz swobodnie dokonywać zmian.")
+![Ekran tworzenia forka](/images/uploads/netlify_fork.png "Po zalogowaniu utwórz fork - kopię roboczą Informatora na której możesz swobodnie dokonywać zmian.")
 
 ## Krok 2: Wprowadź zmiany
 
