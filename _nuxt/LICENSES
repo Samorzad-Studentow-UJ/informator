@@ -1,3 +1,13 @@
+/**
+ *  PDFObject v2.2.6
+ *  https://github.com/pipwerks/PDFObject
+ *  @license
+ *  Copyright (c) 2008-2021 Philip Hutchison
+ *  MIT-style license: http://pipwerks.mit-license.org/
+ *  UMD module pattern from https://github.com/umdjs/umd/blob/master/templates/returnExports.js
+ */
+
+
 /*!
  * vue-client-only v0.0.0-semantic-release
  * (c) 2021-present egoist <0x142857@gmail.com>
@@ -60,14 +70,4 @@
  * vuex v3.6.2
  * (c) 2021 Evan You
  * @license MIT
- */
-
-
-/**
- *  PDFObject v2.2.6
- *  https://github.com/pipwerks/PDFObject
- *  @license
- *  Copyright (c) 2008-2021 Philip Hutchison
- *  MIT-style license: http://pipwerks.mit-license.org/
- *  UMD module pattern from https://github.com/umdjs/umd/blob/master/templates/returnExports.js
  */
