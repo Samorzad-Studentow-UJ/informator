@@ -100,6 +100,7 @@
       elevation='5'
       transition='fade-transition'
       app
+      vertical
     >
       {{ $t('cookieLaw') }}
       <template #action='{ attrs }'>
