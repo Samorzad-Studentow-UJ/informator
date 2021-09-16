@@ -13,5 +13,8 @@ export default {
   studentguide: 'Informator Studenta',
   notFound: 'Strona nie istnieje',
   error: 'Wystąpił błąd',
-  proposeChanges: 'Zaproponuj zmiany'
+  proposeChanges: 'Zaproponuj zmiany',
+  cookieLaw: 'Na stronach internetowych Uniwersytetu Jagiellońskiego stosowane są pliki "cookies".',
+  privacyPolicy: 'Polityka Prywatności',
+  accept: 'Akceptuj',
 }

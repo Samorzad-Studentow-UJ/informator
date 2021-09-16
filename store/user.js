@@ -9,6 +9,7 @@ export const state = () => {
   return {
     theme: Themes.LIGHT,
     pwaDismissed: false,
+    showCookieLaw: true,
   }
 }
 

@@ -93,6 +93,35 @@
         </v-btn>
       </template>
     </v-snackbar>
+    <v-snackbar
+      v-model='showCookieLaw'
+      :timeout='-1'
+      bottom
+      elevation='5'
+      transition='fade-transition'
+      app
+    >
+      {{ $t('cookieLaw') }}
+      <template #action='{ attrs }'>
+        <v-btn
+          text
+          v-bind='attrs'
+          color='primary'
+          href='https://portal.uj.edu.pl/polityka-prywatnosci'
+          target='_blank'
+        >
+          {{ $t('privacyPolicy') }}
+        </v-btn>
+        <v-btn
+          text
+          v-bind='attrs'
+          color='success'
+          @click='showCookieLaw = false'
+        >
+          {{ $t('accept') }}
+        </v-btn>
+      </template>
+    </v-snackbar>
   </v-app>
 </template>
 
@@ -111,6 +140,7 @@ export default {
     drawer: sync('ui/drawer'),
     theme: get('user/theme'),
     pwaDismissed: sync('user/pwaDismissed'),
+    showCookieLaw: sync('user/showCookieLaw'),
     logo() {
       if (this.theme === Themes.LIGHT) {
         return '/ssuj.png'

@@ -3,7 +3,7 @@ export default {
   tos: 'Content',
   theme: {
     light: 'Light',
-    dark: 'Dark',
+    dark: 'Dark'
   },
   pageLastUpdated: 'This page was last updated at',
   home: 'Home',
@@ -13,5 +13,8 @@ export default {
   studentguide: 'Student Guide',
   notFound: 'Page not found',
   error: 'An error occured',
-  proposeChanges: 'Propose changes'
+  proposeChanges: 'Propose changes',
+  cookieLaw: 'The Jagiellonian University web pages use cookies.',
+  privacyPolicy: 'Privacy Policy',
+  accept: 'Accept',
 }
