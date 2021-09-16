@@ -8,6 +8,6 @@ stub: false
 
 W tym roku wydarzenie będzie miało miejsce w dniach **od 28 września do 2 października**. Będzie miało formę hybrydową. Rejestracja ruszy już niebawem! 
 
-Więcej informacji na temat IntroDays znajdziecie na stronie internetowej: 
+Więcej informacji na temat Intro Days znajdziecie na stronie internetowej: 
 
 [www.internationalstudents.uj.edu.pl/intro-days](http://www.internationalstudents.uj.edu.pl/intro-days)
