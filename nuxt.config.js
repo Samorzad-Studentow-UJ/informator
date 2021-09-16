@@ -36,7 +36,8 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -101,7 +102,8 @@ export default {
             cacheableResponse: { statuses: [0, 200] }
           }
         }
-      ]
+      ],
+      offlineAnalytics: true
     }
   },
 
@@ -228,5 +230,9 @@ export default {
     color: '#58a6ff',
     continuous: true,
     duration: 2000
+  },
+
+  googleAnalytics: {
+    id: 'UA-55920586-5'
   }
 }
