@@ -94,7 +94,7 @@
       </template>
     </v-snackbar>
     <v-snackbar
-      v-model='showCookieLaw'
+      :value='mounted && showCookieLaw'
       :timeout='-1'
       bottom
       elevation='5'
@@ -134,7 +134,8 @@ export default {
   data() {
     return {
       pwaInstallPrompt: null,
-      pwaInstallSnackbar: false
+      pwaInstallSnackbar: false,
+      mounted: false,
     }
   },
   computed: {
@@ -171,6 +172,7 @@ export default {
       this.pwaInstallPrompt = null
       this.pwaInstallSnackbar = false
     })
+    this.mounted = true
   },
   methods: {
     pwaInstall() {
