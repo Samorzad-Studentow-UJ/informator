@@ -8,11 +8,11 @@ Dzięki rejestracji na przedmioty student może uczestniczyć w konkretnych prze
 
 Dotyczy zazwyczaj lektoratów, wychowania fizycznego, a także przedmiotów ogólnouniwersyteckich. Zazwyczaj przebiega na zasadach “kto pierwszy, ten lepszy”.
 
-### Rejestracja dwuetapowa 
+### Rejestracja dwuetapowa
 
 Na początku odbywa się rejestracja na poszczególne przedmioty, następnie studenci składają preferencje dotyczące grup ćwiczeniowych i system rozdziela ich do grup według złożonych preferencji lub wybierają grupy samodzielnie w kolejnej turze rejestracji.
 
-### Rejestracja bezpośrednia 
+### Rejestracja bezpośrednia
 
 Studenci rejestrują się od razu na przedmiot i grupy ćwiczeniowe (wybierają konkretne grupy i widzą natychmiast, czy zostali zapisani).
 
@@ -25,3 +25,15 @@ Przedmiot – może być realizowany w formie wykładu, laboratorium, ćwiczeń,
 W skład przedmiotu może wchodzić więcej niż jedna forma zajęć, np. wykład + ćwiczenia. Niektóre przedmioty mogą być realizowane w formie sekwencyjnej, np. w pierwszym i w drugim semestrze danego roku akademickiego. Wówczas zaliczenie tego konkretnego przedmiotu w pierwszym semestrze jest konieczne do zaliczenia przedmiotu w semestrze letnim. (Jeżeli w pierwszym semestrze był realizowany przedmiot Chemia I, a w drugim semestrze w planie studiów figuruje przedmiot Chemia II, to bez zaliczenia Chemii I nie można uczestniczyć w zajęciach z przedmiotu Chemia II oraz uzyskać z niego zaliczenia).
 
 Na większości kierunków obowiązuje zasada zapisania się na konkretne przedmioty poprzez rejestrację odbywającą się w systemie USOS. Czasami jednak student jest automatycznie zapisywany na wszystkie przedmioty bądź ich część przez sekretariat. Zarówno w pierwszym, jak i w drugim przypadku każdy przedmiot musi zostać podpięty pod etap. Kroki te są konieczne, w celu złożenia deklaracji przedmiotowej, której niezłożenie w terminie może skutkować skreśleniem z listy studentów lub niemożnością przystąpienia do egzaminu z przedmiotu, który nie został uwzględniony na deklaracji.
+
+## Podpięcia
+
+Podpięcie - to przypisanie przedmiotu, na który student został wpisany (albo za pomocą rejestracji albo przez sekretariat) do programu studiów, który realizuje dany student i w ramach którego ma być rozliczany przedmiot. Podpięć dokonuje się po zarejestrowaniu się na wszystkie przedmioty. Jest to konieczne do wygenerowania przez system USOSWEB deklaracji przedmiotowej. Po zalogowaniu się do systemu USOS podpięcia dokonuje się w zakładce: “Dla Studentów” → “Podpięcia” w określonym czasie. Należy podpiąć wszystkie przedmioty, jednak ze względu na ich charakter wyróżniamy następujący podział:
+
+• Przedmioty objęte planem studiów powinny zostać podpięte pod program i odpowiedni etap studiów. Podpięcie pod etap może zostać uzupełnione w terminie późniejszym, jeśli w momencie wpisu na przedmiot odpowiedni etap studiów dla studenta jeszcze nie istnieje, w szczególności dla przedmiotów realizowanych awansem, kursów realizowanych w Studium Pedagogicznym UJ, bądź przedmiotów w rejestracji na kolejny rok akademicki, uruchamianej przed rozliczeniem poprzedniego roku
+
+• Przedmioty nieobjęte planem studiów, w szczególności kursy realizowane w ramach wolnych żetonów w Jagiellońskim Centrum Językowym. Nie będą one brane pod uwagę w procesie rozliczenia studiów, uwzględniane w średniej ocen ani wykazywane na deklaracjach, chyba że dziekan wydziału na wniosek studenta postanowi inaczej; w takiej sytuacji pracownik sekretariatu może dokonać modyfikacji podpięcia
+
+## Deklaracje przedmiotowe
+
+Możne je składać elektronicznie w określonym czasie przez system USOSweb dwa razy w roku akademickim - w semestrze zimowym i letnim. Niezłożenie deklaracji w terminie może skutkować skreśleniem z listy studentów lub niemożnością przystąpienia do egzaminu z przedmiotu, który nie został uwzględniony w deklaracji przedmiotowej. W zakładce Deklaracja należy się upewnić, czy na deklaracji znajdują się wszystkie przedmioty przewidziane na konkretny semestr i czy zgadza się suma punktów ECTS - sumując przedmioty z semestru zimowego i letniego powinno być 60 punktów ECTS z tym, że nie muszą się one rozkładać równomiernie na dwa semestry.[](applewebdata://46E9F15A-20D7-4A81-95E6-DF8A48AC6983#_msocom_1)
