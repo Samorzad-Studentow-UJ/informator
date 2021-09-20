@@ -67,7 +67,7 @@ export default {
       mobileAppIOS: true,
       viewport: 'width=device-width, initial-scale=1',
       ogHost: 'https://info.samorzad.uj.edu.pl',
-      ogImage: true
+      ogImage: true,
     },
     manifest: {
       name: 'Informator Studenta UJ',
