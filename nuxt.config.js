@@ -65,7 +65,9 @@ export default {
       description: 'Wszystko co musisz wiedzieć studiując na UJ',
       lang: 'pl',
       mobileAppIOS: true,
-      viewport: 'width=device-width, initial-scale=1'
+      viewport: 'width=device-width, initial-scale=1',
+      ogHost: 'https://info.samorzad.uj.edu.pl',
+      ogImage: true
     },
     manifest: {
       name: 'Informator Studenta UJ',
