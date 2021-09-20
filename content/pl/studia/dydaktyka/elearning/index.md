@@ -1,6 +1,6 @@
 ---
 title: E-Learning
-stub: true
+stub: false
 ---
 ## **Microsoft Teams**
 
