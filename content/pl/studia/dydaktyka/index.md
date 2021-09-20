@@ -1,0 +1,5 @@
+---
+title: Dydaktyka
+stub: true
+---
+.
