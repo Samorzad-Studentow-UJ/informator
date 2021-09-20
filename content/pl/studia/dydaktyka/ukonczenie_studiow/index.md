@@ -70,3 +70,27 @@ Egzamin powinien odbyć się maksymalnie w ciągu miesiąca od dnia spełnienia 
 Egzamin dyplomowy może mieć formę ustną lub pisemną;
 
 Po zakończeniu egzaminu dyplomowego wystawia się ocenę egzaminu dyplomowego w oparciu o skalę ocen przyjętą w Regulaminie Studiów, używaną m.in. do wystawiania ocen z egzaminów w czasie sesji.
+
+### Drugi termin
+
+Uzyskanie oceny niedostatecznej lub nieusprawiedliwione nieprzystąpienie do egzaminu – wówczas dziekan (w drugim przypadku uznając za usprawiedliwione nieprzystąpienie do egzaminu) wyznacza drugi termin egzaminu, na pisemny wniosek studenta złożony w ciągu 7 dni od wyznaczonego terminu egzaminu, lecz egzamin ten nie może odbyć się później niż 3 miesiące od daty pierwszego egzaminu.
+
+Uwaga! Przywrócenie drugiego terminu egzaminu jest niedopuszczalne.
+
+### Trzeci termin
+
+Niezdanie egzaminu dyplomowego w dwóch terminach – wówczas dziekan może wyznaczyć trzeci termin egzaminu dyplomowego, jeżeli uzna to za uzasadnione. Trzeci termin egzaminu dyplomowego jest wyznaczany nie wcześniej niż miesiąc i nie później niż dwa miesiące od daty drugiego terminu egzaminu dyplomowego.
+
+Uzyskanie z trzeciego terminu egzaminu dyplomowego oceny      niedostatecznej lub nieusprawiedliwione nieprzystąpienia do tego egzaminu – student zostaje skreślony z listy studentów i nie może skorzystać ze wznowienia studiów.
+
+Egzamin komisyjny – wniosek w sprawie przeprowadzenia egzaminu komisyjnego student lub samorząd studencki kieruje do dziekana, jeśli:
+
+1. w trakcie egzaminu doszło do nieprawidłowości w jego przeprowadzeniu lub
+2. zakres przeprowadzonego egzaminu wykraczał poza zakres formy \
+   i warunków określonych dla egzaminu dyplomowego.
+
+Egzamin przeprowadza się w terminie od 2 do 14 dni od daty zarządzenia jego przeprowadzenia, po zasięgnięciu opinii zainteresowanego studenta.
+
+Formę i termin przeprowadzenia egzaminu komisyjnego ustala dziekan w porozumieniu z przewodniczącym komisji. Wynik egzaminu komisyjnego uwzględnia się jako podstawę zaliczenia egzaminu dyplomowego także wówczas, gdy został on przeprowadzony po upływie terminu zaliczenia roku.
+
+Warto wiedzieć: na wniosek studenta w egzaminie komisyjnym może uczestniczyć wskazany przez niego obserwator.
