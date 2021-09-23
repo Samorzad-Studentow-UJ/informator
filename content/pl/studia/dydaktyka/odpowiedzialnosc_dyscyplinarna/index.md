@@ -1,5 +1,5 @@
 ---
-title: Odpowiedzialność dyscyplinarną
+title: Odpowiedzialność dyscyplinarna
 stub: false
 ---
 Studenci i doktoranci odpowiadają dyscyplinarnie za naruszenie przepisów, które obowiązują na Uniwersytecie Jagiellońskim oraz za popełnienie czynów niegodnych studenta/doktoranta. W takim wypadku wszczyna się wobec nich postępowanie dyscyplinarne.
@@ -9,10 +9,9 @@ Dziekan, który dowiaduje się od koordynatora przedmiotu, o naruszeniu przez st
 Postępowanie dyscyplinarne wobec studentów składa się z dwóch etapów:
 
 1. postępowania wyjaśniającego
-
 2. postępowania przed komisją dyscyplinarną
 
-## Postępowanie wyjaśniające
+#### Postępowanie wyjaśniające
 
 \- wszczynane na polecenie rektora
 
@@ -20,18 +19,15 @@ Postępowanie dyscyplinarne wobec studentów składa się z dwóch etapów:
 
 \- jego celem jest zebranie dowodów pozwalających rzecznikowi podjąć decyzję kończącą ten etap
 
-## Postępowanie przed komisją dyscyplinarną
+#### Postępowanie przed komisją dyscyplinarną
 
 Komisja dyscyplinarna po przeprowadzeniu postępowania orzeka o ukaraniu, uniewinnieni lub umorzeniu postępowania
 
 Od orzeczenia komisji dyscyplinarnej stronom przysługuje odwołanie. Odwołanie wnosi się do odwoławczej komisji dyscyplinarnej w terminie 14 dni od dnia doręczenia orzeczenia.
 
-## Kary dyscyplinarne
+#### Kary dyscyplinarne
 
-\-upomnienie
-
-\-nagana
-
-\-nagana z ostrzeżeniem
-
-\-zawieszenie w określonych prawach studenta na okres do 1 roku - wydalenie z uczelni
+1. Upomnienie
+2. Nagana
+3. Nagana z ostrzeżeniem
+4. Zawieszenie w określonych prawach studenta na okres do 1 roku - wydalenie z uczelni
