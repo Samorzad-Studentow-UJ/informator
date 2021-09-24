@@ -4,4 +4,3 @@ icon: account-group
 order: 60
 stub: true
 ---
-.
