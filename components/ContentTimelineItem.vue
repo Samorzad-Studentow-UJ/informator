@@ -21,3 +21,8 @@ export default {
   }
 }
 </script>
+
+<style lang='sass'>
+.v-card__title
+  word-break: normal
+</style>
