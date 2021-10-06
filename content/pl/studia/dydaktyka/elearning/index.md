@@ -1,12 +1,10 @@
 ---
-title: E-Learning
+title: E-learning
 stub: false
 ---
 #### Microsoft Teams
 
-Usługa internetowa oparta na chmurze dostępnej w ramach pakietu Microsoft Office 365 zawierająca zestaw narzędzi i usług służących współpracy zespołowej. Pozwala połączyć się w czasie rzeczywistym użytkownikom za pomocą wcześniej stworzonych „zespołów”, tj. grup zajęciowych stworzonych uprzednio przez prowadzących. Osoba kierująca zajęciami ma między innymi możliwość udostępnienia swojego pulpitu w celu przedstawienia prezentacji czy załączenia pliku zawierającego materiały niezbędne do poprawnego przeprowadzenia ćwiczeń. Aplikacja ma szereg przydatnych funkcji, co spowodowało, że jest to podstawowe narzędzie pracy zdalnej na Uniwersytecie Jagiellońskim. Studenci logują się do niej za pom
-
-ocą tych samych danych jak do systemu USOSweb. Zalecane jest pobranie programu na urządzenie, gdyż wtedy usługa działa stabilniej.
+Usługa internetowa oparta na chmurze dostępnej w ramach pakietu Microsoft Office 365 zawierająca zestaw narzędzi i usług służących współpracy zespołowej. Pozwala połączyć się w czasie rzeczywistym użytkownikom za pomocą wcześniej stworzonych „zespołów”, tj. grup zajęciowych stworzonych uprzednio przez prowadzących. Osoba kierująca zajęciami ma między innymi możliwość udostępnienia swojego pulpitu w celu przedstawienia prezentacji czy załączenia pliku zawierającego materiały niezbędne do poprawnego przeprowadzenia ćwiczeń. Aplikacja ma szereg przydatnych funkcji, co spowodowało, że jest to podstawowe narzędzie pracy zdalnej na Uniwersytecie Jagiellońskim. Studenci logują się do niej za pomocą tych samych danych jak do systemu USOSweb. Zalecane jest pobranie programu na urządzenie, gdyż wtedy usługa działa stabilniej.
 
 Adres strony internetowej: [products.office.com/pl-pl/microsoft-teams/group-chat-software](https://www.microsoft.com/pl-pl/microsoft-teams/group-chat-software)
 
