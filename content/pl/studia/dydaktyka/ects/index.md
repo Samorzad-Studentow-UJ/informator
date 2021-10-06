@@ -16,6 +16,6 @@ Możemy to porównać sprawdzając sylabusy danych przedmiotów.
 
 Student otrzymuje taką liczbę ECTS jaka jest przypisana na dany kierunek, na które te punkty przenosi.
 
-Jest możliwe przenoszenie punktów w ramach programów wymiany. Odbywa się to na podstawie porozumienia między Uczelnia, a instytucją partnerską (np. program Erasmus).
+Jest możliwe przenoszenie punktów w ramach programów wymiany. Odbywa się to na podstawie porozumienia między Uczelnią, a instytucją partnerską (np. program Erasmus).
 
 Jeżeli mamy do czynienia z zaliczeniem lektoratu z języka angielskiego lub student chce przedstawić uzyskany certyfikat, wówczas taką decyzję rozpatruje Rektor.
