@@ -2,32 +2,32 @@
 title: Program studiów
 stub: false
 ---
-Program studiów określa jakie efekty uczenia uzyska student po zakończeniu studiów, przedstawiają ogólna charakterystykę kierunku, koncepcję i cele kształcenia.
+Program studiów określa jakie efekty uczenia uzyska student po zakończeniu studiów, przedstawia ogólną charakterystykę kierunku, koncepcję i cele kształcenia.
 
 Program studiów szczególnie określa:
 
-\-Na jakim wydziale odbywa się kształcenie
+\-na jakim wydziale odbywa się kształcenie
 
-\-Jaka jest forma kształcenia
+\-jaka jest forma kształcenia
 
-\-Poziom kształcenia.
+\-poziom kształcenia.
 
-\-Liczbę semestrów
+\-liczbę semestrów
 
-\-Tytuł zawodowy nadawany absolwentom
+\-tytuł zawodowy nadawany absolwentom
 
-\-Liczbę punktów ECTS konieczna do ukończenia studiów Liczba godzin zajęć
+\-liczbę punktów ECTS konieczną do ukończenia studiów
 
-\-Przewidywane praktyki zawodowe
+\-liczbę godzin zajęć
 
-\-Wymogi związane z ukończeniem studiów (praca dyplomowa/egzamin dyplomowy/inne)
+\-przewidywane praktyki zawodowe
 
-\-Wskazuje efekty uczenia się
+\-wymogi związane z ukończeniem studiów (praca dyplomowa/egzamin dyplomowy/inne)
 
-\-Plan studiów z podziałem na przedmioty, sposób ich zaliczenia, liczbę godzin oraz liczbę punktów ECTS
+\-wskazuje efekty uczenia się
+
+\-plan studiów z podziałem na przedmioty, sposób ich zaliczenia, liczbę godzin oraz liczbę punktów ECTS
 
 Program studiów określa, iż warunkiem zrealizowania programu jednolitych studiów magisterskich jest uzyskanie co najmniej 300 punktów ECTS, a w przypadku studiów trwających zgodnie z przyjętym programem studiów dwanaście semestrów – co najmniej 360 punktów.
-
-Program studiów może dopuszczać możliwość skorzystania z wyżej wymienionego wpisu także w sytuacji niezrealizowania określonych w programie studiów warunków zaliczenia danego roku studiów (Warunkowe zaliczenie roku).
 
 Wszystkie programy studiów można znaleźć na stronie [bip.uj.edu.pl](http://bip.uj.edu.pl/)
