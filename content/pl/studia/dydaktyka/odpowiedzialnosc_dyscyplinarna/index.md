@@ -4,7 +4,7 @@ stub: false
 ---
 Studenci i doktoranci odpowiadają dyscyplinarnie za naruszenie przepisów, które obowiązują na Uniwersytecie Jagiellońskim oraz za popełnienie czynów niegodnych studenta/doktoranta. W takim wypadku wszczyna się wobec nich postępowanie dyscyplinarne.
 
-Dziekan, który dowiaduje się od koordynatora przedmiotu, o naruszeniu przez studenta przepisów, niezwłocznie zawiadamia o tym rektora. Rektor zleca w takim przypadku, przeprowadzenie postępowania wyjaśniającego, w celu ustalenia, czy doszło do popełniania któregokolwiek w czynów, ujętych w § 13 Regulaminu studiów pierwszego stopnia, drugiego stopnia oraz jednolitych studiów magisterskich Uniwersytetu Jagiellońskiego.
+Dziekan, który dowiaduje się od koordynatora przedmiotu, o naruszeniu przez studenta przepisów, niezwłocznie zawiadamia o tym rektora. Rektor zleca w takim przypadku, przeprowadzenie postępowania wyjaśniającego, w celu ustalenia, czy doszło do popełniania któregokolwiek z czynów, ujętych w § 13 Regulaminu studiów pierwszego stopnia, drugiego stopnia oraz jednolitych studiów magisterskich Uniwersytetu Jagiellońskiego.
 
 Postępowanie dyscyplinarne wobec studentów składa się z dwóch etapów:
 
@@ -21,7 +21,7 @@ Postępowanie dyscyplinarne wobec studentów składa się z dwóch etapów:
 
 #### Postępowanie przed komisją dyscyplinarną
 
-Komisja dyscyplinarna po przeprowadzeniu postępowania orzeka o ukaraniu, uniewinnieni lub umorzeniu postępowania
+Komisja dyscyplinarna po przeprowadzeniu postępowania orzeka o ukaraniu, uniewinnieniu lub umorzeniu postępowania.
 
 Od orzeczenia komisji dyscyplinarnej stronom przysługuje odwołanie. Odwołanie wnosi się do odwoławczej komisji dyscyplinarnej w terminie 14 dni od dnia doręczenia orzeczenia.
 
