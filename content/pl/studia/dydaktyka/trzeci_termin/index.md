@@ -2,8 +2,7 @@
 title: Trzeci termin egzaminu
 stub: false
 ---
-W uzasadnionych przypadkach dziekan może jeden raz w ramach toku studiów wyrazić zgodę na wyznaczenie  trzeciego  terminu  egzaminu \
- z  danego  przedmiotu  w  trakcie  tego  samego  roku akademickiego. Wniosek w tej sprawie należy złożyć przed upływem terminu zaliczenia roku studiów. 
+W uzasadnionych przypadkach dziekan może jeden raz w ramach toku studiów wyrazić zgodę na wyznaczenie  trzeciego  terminu  egzaminu z  danego  przedmiotu  w  trakcie  tego  samego  roku akademickiego. Wniosek w tej sprawie należy złożyć przed upływem terminu zaliczenia roku studiów. 
 
 Dotyczy to także zaliczeń końcowych, jeśli metody kształcenia i metody weryfikacji to umożliwiają. 
 
