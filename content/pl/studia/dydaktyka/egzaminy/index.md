@@ -19,9 +19,9 @@ Jest to forma weryfikacji osiągania przez studentów efektów uczenia się, tj.
 
 #### Terminy egzaminów
 
-Terminy egzaminu wyznacza koordynator przedmiotu w porozumieniu z dziekanem. Informacja o terminach egzaminów i zaliczeń powinna być podana do wiadomości studentów najpóźniej na 2 miesiące przed pierwszym wyznaczonym terminem.
+Terminy egzaminów wyznacza koordynator przedmiotu w porozumieniu z dziekanem. Informacja o terminach egzaminów i zaliczeń powinna być podana do wiadomości studentów najpóźniej na 2 miesiące przed pierwszym wyznaczonym terminem.
 
-Istnieje zasada, że jeden termin egzaminu powinien być wyznaczony w sesji zwykłej oraz jeden w sesji poprawkowej.
+Istnieje zasada, że jeden termin egzaminu powinien być wyznaczony w sesji zasadniczej oraz jeden w sesji poprawkowej.
 
 Jeżeli student uzyska ocenę niedostateczna z pierwszego terminu, wówczas ma prawo do egzaminu poprawkowego. Musimy jednak pamiętać, że jeżeli termin poprawkowy dla danego studenta jest pierwszym podejściem do egzaminu traci on wówczas prawo do kolejnego terminu.
 
@@ -33,20 +33,14 @@ Po zamknięciu takiej listy nie można się już dopisać ani skreślić bez zgo
 
 Istnieje również możliwość, że student nie uzyskał zaliczenia z danego przedmiotu, co wiąże się z niedopuszczeniem do egzaminu.
 
-Takiej osobie przysługuje prawo do jednego terminu poprawkowego danego zaliczenia, ale nie później niż przed rozpoczęciem sesji poprawkowej.
+Takiej osobie przysługuje prawo do jednego terminu poprawkowego danego zaliczenia przed rozpoczęciem sesji poprawkowej, o ile metody kształcenia i metody weryfikacji to umożliwiają.
 
 #### Uzasadniony czy nieuzasadniony brak przystąpienia do egzaminu?
 
 W przypadku nieuzasadnionego braku przystąpienia do egzaminu w pierwszym terminie, student może ten egzamin zdawać, ale już tylko jako egzamin poprawkowy (traci jeden z terminów).
 
-W przypadku uzasadnionego braku przystąpienia do egzaminu (spowodowane np. choroba), student ma prawo złożyć odpowiedni wniosek w ciągu 7 dni od wyznaczonego terminu i zwrócić się z prośba o przywrócenie terminu egzaminu. Wówczas dziekan rozpatruje taka decyzje i razem z prowadzącym zajęcia, może wyznaczyć dodatkowy termin egzaminu.
+W przypadku uzasadnionego braku przystąpienia do egzaminu (spowodowanego np. chorobą), student ma prawo złożyć wniosek o usprawiedliwienie nieobecności na egzaminie w ciągu 7 dni od daty egzaminu. Wówczas dziekan rozpatruje taką decyzję i razem z prowadzącym zajęcia wyznacza dodatkowy termin egzaminu, nie później niż do końca danego roku akademickiego; dotyczy to także egzaminu poprawkowego. Przywrócenie dodatkowego terminu egzaminu jest niedopuszczalne.
 
 #### Wyniki egzaminu
 
-Prowadzący zajęcia jest zobowiązany do ogłoszenia wyników w systemie USOSweb w terminie 10 dni od terminu egzaminu lub zaliczenia.
-
-#### Wgląd do prac
-
-Student ma prawo wglądu do ocenionej pracy w terminie 14 dni od ogłoszenia wyników. Powinny zostać wyznaczone co najmniej dwa terminy, w których możliwy jest wgląd do pracy.
-
-Student musi pamiętać, że jeżeli otrzymał pozytywna ocenę z egzaminu lub zaliczenia, ale jest to ocena, która go nie satysfakcjonuję, nie ma on prawa poprawy danej oceny na wyższą.
+Prowadzący zajęcia jest zobowiązany do ogłoszenia wyników w systemie USOSweb w terminie 10 dni od terminu egzaminu lub zaliczenia, nie póżniej niż do końca danego roku akademickiego.
