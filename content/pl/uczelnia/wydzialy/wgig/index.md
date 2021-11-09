@@ -2,7 +2,7 @@
 title: Wydział Geografii i Geologii
 order: 150
 icon: ""
-stub: true
+stub: false
 ---
 Informacje podstawowe:
 

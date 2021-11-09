@@ -41,6 +41,7 @@ collections:
         name: 'stub'
         widget: 'boolean'
         default: false
+        required: false
       - label: 'PDF url'
         name: 'pdf'
         widget: 'string'
@@ -53,6 +54,7 @@ collections:
         name: 'body'
         widget: 'markdown'
         buttons: [ 'bold', 'italic', 'link', 'heading-two', 'heading-three', 'heading-four', 'heading-five', 'heading-six', 'quote', 'bulleted-list', 'numbered-list', 'code' ]
+        required: false
     extension: 'md'
     format: yaml-frontmatter
     slug: "{{slug}}"
@@ -83,6 +85,7 @@ collections:
         name: 'stub'
         widget: 'boolean'
         default: false
+        required: false
       - label: 'PDF url'
         name: 'pdf'
         widget: 'string'
@@ -95,6 +98,7 @@ collections:
         name: 'body'
         widget: 'markdown'
         buttons: [ 'bold', 'italic', 'link', 'heading-two', 'heading-three', 'heading-four', 'heading-five', 'heading-six', 'quote', 'bulleted-list', 'numbered-list', 'code' ]
+        required: false
     extension: 'md'
     format: yaml-frontmatter
     slug: "{{slug}}"
