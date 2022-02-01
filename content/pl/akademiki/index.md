@@ -2,7 +2,7 @@
 title: Akademiki
 icon: bed
 order: 50
-stub: true
+stub: false
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
