@@ -1,5 +1,5 @@
 ---
-title: Stypendium rektora
+title: Stypendium Rektora
 stub: false
 ---
 Stypendium rektora dla studentów Uniwersytetu Jagiellońskiego jest przyznawane najlepszym studentom za następujące osiągnięcia:
