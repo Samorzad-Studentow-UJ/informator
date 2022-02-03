@@ -35,7 +35,4 @@ Jednak ani urlop dziekański ani urlop studencki nie dyskwalifikują z procesu w
 5. Wydrukowanie i podpisanie wniosku papierowego wygenerowanego przez system USOSweb;
 6. Dostarczenie (osobiście lub pocztą tradycyjną) wydrukowanego wniosku do koordynatora spraw stypendialnych – 20 września bieżącego roku. <!--StartFragment-->
 
-
-
-   <!--EndFragment-->
    Więcej informacji: https://stypendia.uj.edu.pl/pomoc-materialna/stypendium-rektora
