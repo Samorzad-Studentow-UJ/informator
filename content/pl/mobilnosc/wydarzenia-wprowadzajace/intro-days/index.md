@@ -1,12 +1,10 @@
 ---
 title: Intro Days
-icon: hands-helping
 order: 2
+icon: hands-helping
 stub: false
 ---
-*"Intro Days"* to inicjatywa organizowana przez Dział Obsługi Studentów Zagranicznych UJ. Jest to kilkudniowa seria spotkań dla studentów zagranicznych, którzy dopiero rozpoczynają swoją przygodę ze studiami na Uniwersytecie Jagiellońskim (poza uczestnikami wymian). Podczas paneli studenci mają możliwość udziału w spotkaniach z przedstawicielami społeczności akademickiej, jak i instytucjami pozauniwersyteckimi. 
-
-W tym roku wydarzenie będzie miało miejsce w dniach **od 28 września do 2 października**. Będzie miało formę hybrydową. Rejestracja ruszy już niebawem! 
+Intro Days to seria spotkań wprowadzających nowo przyjętych studentów zagranicznych rozpoczynających studia w Uniwersytecie Jagiellońskim (poza uczestnikami wymian). To wydarzenie jest organizowane przez Dział Obsługi Studentów Zagranicznych UJ. Mamy nadzieję, że ta inicjatywa przybliży zagranicznym uczniom zarówno struktury uczelni, jak i realiów codziennego życia w Krakowie. Program wydarzenia zakłada zarówno spotkania z przedstawicielami społeczności akademickiej, jak i warsztaty – prowadzone nie tylko przez organizacje związane z uniwersytetem, ale też instytucje pozauniwersyteckie. 
 
 Więcej informacji na temat Intro Days znajdziecie na stronie internetowej: 
 
