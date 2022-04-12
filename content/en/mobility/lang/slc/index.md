@@ -1,0 +1,5 @@
+---
+title: Students Language Conversations
+stub: false
+---
+A project realized by Mobility Team of Jagiellonian University Students Self-Government, during which students teach other students' foreign languages for free. One course lasts one semester and in the end everybody receives a certificate of attendance. It’s one and only occasion to learn many languages, which are available only for students of some faculties, or simply are not being taught in entire university. Courses you can attend change every semester, depending on volunteering lectors. In the past, next to popular languages – such as English, French or Spanish – our participants had the opportunity to learn the basics of Islandic, Arabic or Korean. Our lectors are often native speakers studying on Jagiellonian University and because of that these classes are popular among JU students. Recruiting process for the winter semester starts in October, and for the summer semester in March. Information about both of them are shown on the Facebook page of Jagiellonian University’s Student’s Self-Government.
