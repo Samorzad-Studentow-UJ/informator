@@ -1,5 +1,5 @@
 ---
-title: Kontakty
+title: Organizacje współpracujące
 stub: true
 ---
 .
