@@ -1,11 +1,7 @@
 ---
 title: Orientation Week
-icon: hands-helping
 order: 3
+icon: hands-helping
 stub: false
 ---
-*"Orientation Week"* to niesamowity tydzień powitalny, przygotowany specjalnie dla studentów przyjeżdżających do Polski w ramach wymiany Erasmus. Jest on organizowany przez ESN UJ Kraków, a celem tego wydarzenia jest pomoc studentom w odnalezieniu się w mieście poprzez szereg wydarzeń i aktywności. 
-
-  
-
-W tym roku wydarzenie będzie miało miejsce w dniach **od 27 września do 1 października**.
+Erasmus Student Network UJ Cracow jest częścią jednego z największych studenckich stowarzyszeń w Europie. ESN skupia się na pomocy studentom biorącym udział w programie wymian Erasmus+. Każdego roku ESN organizuje Orientation Week dla wszystkich przyjeżdżających studentów, podczas którego można dowiedzieć się o życiu w Polsce, poznać nowych ludzi, wziąć udział w wydarzeniach integracyjnych, podróżować i wiele więcej. Organizacja również zajmuje się dystrybucją ESNcardów, które upoważniają studentów do korzystania ze zniżek partnerów ESN w całej Europie (np. Ryanair, Logitech, Hostelling International).
