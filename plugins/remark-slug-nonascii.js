@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use strict'
 
 var toString = require('mdast-util-to-string')
