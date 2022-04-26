@@ -1,5 +1,6 @@
 ---
 title: Scholarships for students with disabilities
+order: 4
 stub: false
 ---
 Additional scholarships may be applied for:  
