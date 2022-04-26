@@ -1,0 +1,4 @@
+---
+title: Erasmus
+stub: true
+---
