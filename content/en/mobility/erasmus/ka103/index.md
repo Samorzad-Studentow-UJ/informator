@@ -1,5 +1,6 @@
 ---
 title: Erasmus KA 103
+order: 1
 stub: false
 ---
 The Erasmus KA103 is probably the most common form of student’s exchange available to Jagiellonian University students. The offer includes universities from all European Union countries and partner countries.  
