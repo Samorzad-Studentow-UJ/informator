@@ -1,5 +1,5 @@
 ---
-title: Scholarships for people with disabilities
+title: Scholarships for students with disabilities
 stub: false
 ---
 Additional scholarships may be applied for:  
