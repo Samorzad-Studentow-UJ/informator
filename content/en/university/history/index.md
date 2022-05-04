@@ -6,15 +6,11 @@ stub: false
 
 Jagiellonian University is the oldest in Poland and one of the oldest in this region of Europe. It was founded on 12 May 1364 by the Polish king Casimir the Great. Studium generale - as the University was then called - consisted of three faculties: liberal arts, medicine, and law. 
 
- 
-
 Currently, Jagiellonian University has 16 faculties, including three medical faculties, which returned to Jagiellonian University in 1993 and form the so-called Collegium Medicum. Currently, there are 158 faculties at Jagiellonian University. 
-
- 
 
 The University has more than 3.5 thousand academic teachers, about 40 thousand students and Ph.D. students, and about 3.5 thousand administrative staff.
 
-## Key dates in the history of UJ
+## Key dates in the history of JU
 
 <content-timeline>
 
