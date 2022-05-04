@@ -2,7 +2,7 @@
 title: Dormitories
 icon: bed
 order: 50
-stub: true
+stub: false
 ---
 **Jagiellonian University students have the opportunity to live in one of the 5 University dormitories**: Żaczek, Nawojka, Piasta, Bydgoska or Bursa Jagiellońska. It is also possible to stay in one of the dormitories on the AGH Student Campus. 
 
