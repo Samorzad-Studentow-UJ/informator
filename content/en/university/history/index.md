@@ -34,7 +34,7 @@ Nicolaus Copernicus, the author of the groundbreaking "De revolutionibus orbium 
 The Reformation and the religious divisions in Europe caused by it, as well as the establishment of many new universities, limited the influx of foreign students. Due to the abolition of higher education required to hold state and church positions, the nobility also lost interest in studying. Despite this, such personalities as Mikołaj Rej, Jan Kochanowski, Andrzej Frycz-Modrzewski and Marcin Kromer are mentioned among the students of the University.
 </content-timeline-item>
 
-<content-timeline-item title='Cracow Academy ' opposite='Late 16th Century'>
+<content-timeline-item title="Cracow Academy" opposite="Late 16th Century">
 The university begins to be commonly referred to as the Krakow Academy.
 </content-timeline-item>
 
