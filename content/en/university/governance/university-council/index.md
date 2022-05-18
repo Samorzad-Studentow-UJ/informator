@@ -2,13 +2,9 @@
 title: University Council
 stub: false
 ---
-## What is the University Council? 
-
- 
+### What is the University Council? 
 
 The University Council is a supervisory body, its tasks include: 
-
- 
 
 \- giving its opinion on the draft strategy of the university. 
 
@@ -30,8 +26,6 @@ The University Council is a supervisory body, its tasks include: 
 
 \-performing other tasks specified in the statutes. 
 
- 
-
 The University Council consists of: 
 
 \- 3 members from outside the University community 
@@ -40,7 +34,7 @@ The University Council consists of: 
 
 \- The Chairperson of the Student Self-Government 
 
-## Term of office 2020-24  
+### Term of office 2020-24  
 
  3 members from outside the University community 
 
