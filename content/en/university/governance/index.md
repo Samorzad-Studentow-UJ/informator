@@ -1,4 +1,4 @@
 ---
-title: Authorities
+title: Governance
 stub: true
 ---
