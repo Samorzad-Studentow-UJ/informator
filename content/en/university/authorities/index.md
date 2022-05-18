@@ -1,0 +1,4 @@
+---
+title: Authorities
+stub: true
+---
