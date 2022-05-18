@@ -4,7 +4,7 @@ stub: false
 ---
 ![rector](/images/uploads/rektor.jpg "Prof. dr hab. Jacek Popiel")
 
-## Tasks 
+### Tasks 
 
 The Rector acts as the highest executive authority of the University, directing and representing its work. 
 
@@ -30,13 +30,11 @@ ensuring observance of the law at the University, as well as maintaining order a
 
 performing tasks in defence, crisis management, and civil defence, civil protection; taking decisions on matters defined in the Act, Law on Higher Education and Science. 
 
-## Interesting thing 
+### Interesting thing 
 
 In official situations the Rector should be called "His Magnificence". 
 
-
-
-## Biography 
+### Biography 
 
 Date of birth: 1 August 1954, Cracow Education: Doctor of Humanities - 1985, 
 
