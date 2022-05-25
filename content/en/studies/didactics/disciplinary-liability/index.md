@@ -1,5 +1,6 @@
 ---
 title: Disciplinary liability
+order: 5
 stub: false
 ---
 Students and doctoral students are liable to disciplinary action for breaching the regulations in force at the Jagiellonian University and for committing acts unworthy of a student / doctoral student. In such cases, disciplinary proceedings are initiated against them.
