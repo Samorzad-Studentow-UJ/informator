@@ -1,5 +1,6 @@
 ---
 title: Student ID card
+order: 4
 stub: false
 ---
 The student ID card is a document which confirms a student's status as a student and contains personal data and a photograph. The student ID card must be renewed every six months. You can do this by going to the registrar's office, where you will receive a hologram with the expiry date (31 March in the winter term and 31 October in the summer term).
