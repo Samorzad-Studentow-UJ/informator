@@ -1,5 +1,6 @@
 ---
 title: Leave from classes
+order: 18
 stub: false
 ---
 A student may take leave from classes in the following ways:
