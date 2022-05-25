@@ -1,0 +1,4 @@
+---
+title: Didactics
+stub: true
+---
