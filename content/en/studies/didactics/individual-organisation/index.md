@@ -1,5 +1,6 @@
 ---
 title: Individual organisation of studies
+order: 3
 stub: false
 ---
 The individual organisation of studies may consist of the application of an individual study programme or an individual study plan. In both cases, the student applies for one of these options to the dean for student affairs of his/her faculty.
