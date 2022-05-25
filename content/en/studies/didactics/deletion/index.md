@@ -1,5 +1,6 @@
 ---
 title: Deletion from the list of students
+order: 13
 stub: false
 ---
 Being thrown off the student register is tantamount to a person being deprived of their student status. There are two groups of reasons that lead to such a decision being taken by the relevant dean.
