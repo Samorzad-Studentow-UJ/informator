@@ -1,5 +1,6 @@
 ---
 title: Grade point average
+order: 14
 stub: false
 ---
 How to calculate your grade-point average?
