@@ -1,5 +1,6 @@
 ---
 title: Third examination date
+order: 16
 stub: false
 ---
 In justified cases, the dean may grant permission to set a third examination date for a given course within the same academic year. A petition to this effect must be submitted before the end of the academic year. 
