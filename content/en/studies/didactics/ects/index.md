@@ -1,5 +1,6 @@
 ---
 title: ECTS credits
+order: 10
 stub: false
 ---
 ECTS credits, or the "European Credit Transfer System", are the rules developed by the European Commission to standardize studying at European universities. With these points, the requirements for each course are determined in order to be able to calculate the academic year. Points are closely related to the number of hours a student spends studying. The Commission has calculated that a full-time student spends around 1500 hours studying in one year, so 1 ECTS is around 25 hours, so the annual workload should be 60 ECTS credits.
