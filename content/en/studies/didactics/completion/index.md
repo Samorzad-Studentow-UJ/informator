@@ -1,5 +1,6 @@
 ---
 title: Completion of studies
+order: 17
 stub: false
 ---
 ## Defence of the diploma thesis
