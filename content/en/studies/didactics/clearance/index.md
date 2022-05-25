@@ -1,5 +1,6 @@
 ---
 title: Clearance of the year
+order: 12
 stub: false
 ---
 The academic year clearance consists of verifying whether the student has completed all required and declared courses in the academic year. The completion of the year is confirmed by entry into the next study year.
