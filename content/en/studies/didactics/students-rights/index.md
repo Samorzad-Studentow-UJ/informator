@@ -1,5 +1,6 @@
 ---
 title: Students' Rights
+order: 8
 stub: false
 ---
 A student, i.e. a person pursuing studies, who has been admitted to the university and has taken the oath, has certain rights on this account, student rights.
