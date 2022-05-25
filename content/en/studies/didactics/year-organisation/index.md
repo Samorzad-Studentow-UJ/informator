@@ -1,5 +1,6 @@
 ---
 title: Organisation of the Academic Year
+order: 6
 stub: false
 ---
 The academic year lasts from 1 October to 30 September. By May 1 of the year preceding the following academic year, the academic year plan for the coming year is published. Two weeks before the beginning of the year, the dean announces the timetable for the studies involved.
