@@ -1,5 +1,6 @@
 ---
 title: USOSweb
+order: 19
 stub: false
 ---
 USOSweb is a platform for students and academics that is essential for everyday student life. What possibilities does it offer?
