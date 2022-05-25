@@ -1,6 +1,6 @@
 ---
 title: Syllabus
-order: 9
+order: 15
 stub: false
 ---
 The syllabus is an element of the curriculum that includes a detailed description of the course, drawn up according to separate regulations.
