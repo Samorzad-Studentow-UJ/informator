@@ -1,5 +1,6 @@
 ---
 title: Exemption from fees
+order: 99
 stub: false
 ---
 Students may apply for partial or full exemption from fees for educational services related to 
