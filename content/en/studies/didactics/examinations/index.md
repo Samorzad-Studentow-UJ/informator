@@ -1,5 +1,6 @@
 ---
 title: Examinations
+order: 1
 stub: false
 ---
 This is a form of verification of students' achievement of learning outcomes, that is, knowledge, skills, and social competences.
