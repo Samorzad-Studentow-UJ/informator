@@ -1,5 +1,6 @@
 ---
 title: University Wi-Fi
+order: 20
 stub: false
 ---
 Eduroam, the international academic Wi-Fi network, provides free Internet access to UJ students and staff.
