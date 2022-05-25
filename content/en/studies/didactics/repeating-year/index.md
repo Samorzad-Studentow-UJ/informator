@@ -1,5 +1,6 @@
 ---
 title: Repeating a year
+order: 7
 stub: false
 ---
 In the case of:
