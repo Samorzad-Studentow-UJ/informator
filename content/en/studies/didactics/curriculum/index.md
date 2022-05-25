@@ -1,5 +1,6 @@
 ---
 title: Curriculum
+order: 9
 stub: false
 ---
 The curriculum defines what learning outcomes the student will obtain after graduation, presents the general characteristics of the course, and the concept and objectives of education.
