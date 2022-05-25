@@ -4,7 +4,7 @@ stub: false
 ---
 This is a form of verification of students' achievement of learning outcomes, that is, knowledge, skills, and social competences.
 
-##### What exams can you take while studying?
+#### What exams can you take while studying?
 
 1. A 'zero' exam
 
@@ -26,7 +26,7 @@ This is an examination that a student should take if they fail to pass a resit e
 
 Taken when an examination has not been conducted in accordance with the established rules and the student has been prevented from taking it in appropriate conditions. This examination is conducted within 2 to 14 days of being ordered. A student appears before an examination board. A note is made of each board examination.
 
-##### Examination dates
+#### Examination dates
 
 Examination dates are set by the course coordinator in consultation with the Dean. Information on the dates of examinations and final course tests must be made available to students no later than two months before the first date set.
 
@@ -38,18 +38,18 @@ It is possible that the teacher will order the drawing of the registration lists
 
 Once a list has been closed, you may not add or remove students from it without the permission of the teacher.
 
-##### What if I do not pass the course?
+#### What if I do not pass the course?
 
 It is also possible that a student does not obtain a pass in a subject, which means that he/she is not allowed to take an exam.
 
 Such students are entitled to one re-sit before the start of the re-sit session if the teaching and assessment methods allow for this.
 
-##### Justified or unjustified failure to take an examination?
+#### Justified or unjustified failure to take an examination?
 
 In the case of an unjustified failure to take an examination on the first date, a student may take this examination, but only as a resit (losing one of the dates).
 
 In the case of a justified failure to take an examination (e.g. due to illness), students have the right to submit a request to justify the absence from the examination within 7 days of the examination date. The dean then considers such a request and, together with the teacher responsible for the course, sets an additional examination date no later than the end of the academic year; this also applies to resit examinations. Reinstating an additional examination date is not allowed.
 
-##### Examination results
+#### Examination results
 
 The course tutor is required to publish the results on the USOSweb system within 10 days of the examination date or credit date, no later than by the end of the given academic year.
