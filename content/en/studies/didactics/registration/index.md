@@ -1,5 +1,6 @@
 ---
 title: Course registration
+order: 11
 stub: false
 ---
 By registering for subjects, a student can participate in specific subjects and thus follow their study programme. The registration takes place in the USOSweb system. Information about planned registrations is displayed after logging in to the USOSweb system, and is also available under "REGISTRATION CALENDAR". Sometimes students are also informed by email about the specific subjects they should register for. Several types of registration are possible in the USOSweb system:
