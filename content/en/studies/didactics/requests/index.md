@@ -1,5 +1,6 @@
 ---
 title: Requests
+order: 22
 stub: false
 ---
 Requests concerning matters related to your course of study and examinations (e.g. conditional entry, excuse for an examination) can be addressed to the vice-dean responsible for student affairs in the faculty or another authorised person as indicated on the faculty or institute website. You should submit your request through the appropriate dean's office/secretariat for your course of study. Remember that you can submit your application electronically by sending it by email at the domain uj.edu.pl. 
