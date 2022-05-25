@@ -1,5 +1,6 @@
 ---
 title: Sylabus
+order: 15
 stub: false
 ---
 Sylabus jest elementem programu studiów zawierający m.in. szczegółowy opis przedmiotu, sporządzony zgodnie z odrębnymi przepisami.
