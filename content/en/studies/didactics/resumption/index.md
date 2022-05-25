@@ -1,5 +1,6 @@
 ---
 title: Resumption of studies
+order: 25
 stub: false
 ---
 After being struck off the list of students, it is possible to be readmitted to a given course of study (resumption of studies):
